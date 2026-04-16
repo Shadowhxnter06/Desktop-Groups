@@ -37,4 +37,29 @@ def get_govee_scenes():
 
     print(f"Done")
 
-get_govee_scenes()
+#get_govee_scenes()
+
+def search_govee_scenes(device_name, scene_name):
+
+    # Function to return the scene/param ID for each scene based on the name
+
+    print(f"Fetching {device_name} scenes...")
+    with open("govee_scenes.json", "r") as f:
+        device_scenes = json.load(f)
+    
+    s = device_scenes[device_name]
+    if s is None:
+            print(f"Device '{device_name}' not found in govee_scenes.json")
+            return None
+    
+    for scene in s["scenes"]:
+        
+        if scene["name"] == scene_name:
+            print(f"Scene ID: {scene["id"]} Parameter ID: {scene["paramId"]}")
+            return scene["id"], scene["paramId"]
+        
+    print(f"Scene '{scene_name}' not found for device '{device_name}'")
+    return None
+
+
+search_govee_scenes("Table Lamp", "Morning")

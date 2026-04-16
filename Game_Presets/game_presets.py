@@ -5,12 +5,14 @@ import comtypes
 from pycaw.pycaw import AudioUtilities
 from pycaw.constants import EDataFlow
 import subprocess
+import sys
 from govee_lights import (
     get_govee_lights,
     toggle_govee_device_power,
     change_govee_device_brightness,
     change_govee_device_scene
 )
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Add parent directory to path for imports
 
 # ---------------------------------------------------------------------------
 # FUNCTION DEFINING

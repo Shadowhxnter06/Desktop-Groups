@@ -1,6 +1,8 @@
 # This script will be used to open apps and change items when ran.
+import os, sys
 
-import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Add parent directory to path for imports
+
 
 group = input("Homelab, Dev, or Gaming?: ") #Temporary. Will change this to either separate scripts or "buttons" of some sort
 

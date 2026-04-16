@@ -1,0 +1,129 @@
+{
+  "ELDEN RING": {
+    "wallpaper": "Elden Ring",
+    "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 100, "scene": { "param_id": 9678, "scene_id": 6975 } },
+      "glide_hexa":       { "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 40, "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 40, "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "off" }
+    }
+  },
+
+  "Subnautica": {
+    "wallpaper": "Subnautica Profile",
+    "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "glide_hexa":       { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "off" }
+    }
+  },
+
+  "ARK: Survival Evolved": {
+    "wallpaper": "ARK Profile",
+    "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
+      "glide_hexa":       { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 90, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 90, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "off" }
+    }
+  },
+
+  "Divinity: Original Sin 2": {
+    "wallpaper": "Divinity Profile",
+    "audio": "Speakers (Realtek USB2.0 Audio)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
+      "glide_hexa":       { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "on", "brightness": 40 }
+    }
+  },
+
+  "Schedule I": {
+    "wallpaper": "Schedule I Profile",
+    "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "glide_hexa":       { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "off" }
+    }
+  },
+
+  "Sons Of The Forest": {
+    "wallpaper": "Sons Of The Forest Profile",
+    "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 30, "scene": { "param_id": 0, "scene_id": 0 } },
+      "glide_hexa":       { "power": "on", "brightness": 30, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 40, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 20, "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 20, "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "off" }
+    }
+  },
+
+  "Minecraft Launcher": {
+    "wallpaper": "Minecraft Profile",
+    "audio": "Speakers (Realtek USB2.0 Audio)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "glide_hexa":       { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "on", "brightness": 80 }
+    }
+  },
+
+  "Minecraft for Windows": {
+    "wallpaper": "Minecraft Profile",
+    "audio": "Speakers (Realtek USB2.0 Audio)",
+    "apps": [],
+    "websites": [],
+    "govee": {
+      "glide_hexa_ultra": { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "glide_hexa":       { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "tv_backlight":     { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "light_bar":        { "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
+      "covered_led_strip":{ "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
+      "sync_box":         { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
+      "table_lamp":       { "power": "on", "brightness": 80 }
+    }
+  }
+}

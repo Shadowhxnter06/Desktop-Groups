@@ -1,0 +1,79 @@
+{
+ "Among Us.exe": {"name": "Among Us", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Among Us\\Among Us.exe" },
+
+ "ShooterGame.exe":{ "name": "ARK: Survival Evolved","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ARK\\ShooterGame\\Binaries\\Win64\\ShooterGame.exe" },
+
+ "BladeAndSorcery.exe":{ "name": "Blade & Sorcery", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Blade & Sorcery\\BladeAndSorcery.exe" },
+
+ "Buckshot Roulette.exe":{ "name": "Buckshot Roulette","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Buckshot Roulette\\Buckshot Roulette_windows\\Buckshot Roulette.exe" },
+
+ "Content Warning.exe":{ "name": "Content Warning", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Content Warning\\Content Warning.exe" },
+
+ "CrimsonDesert.exe": { "name": "Crimson Desert","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Crimson Desert\\bin64\\CrimsonDesert.exe" },
+
+ "EoCApp.exe":{ "name": "Divinity: Original Sin 2", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Divinity Original Sin 2\\DefEd\\bin\\EoCApp.exe" },
+
+ "DSPGAME.exe":{ "name": "Dyson Sphere Program", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dyson Sphere Program\\DSPGAME.exe" },
+
+ "eldenring.exe": { "name": "ELDEN RING", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ELDEN RING\\Game\\eldenring.exe" },
+
+ "Hacknet.exe":{ "name": "Hacknet", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Hacknet\\Hacknet.exe" },
+
+ "Hades.exe": { "name": "Hades",  "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Hades\\x64\\Hades.exe" },
+
+ "In Silence.exe": { "name": "In Silence", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\In Silence\\In Silence.exe" },
+
+ "Lethal Company.exe": { "name": "Lethal Company","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Lethal Company\\Lethal Company.exe" },
+
+ "Game.exe":{ "name": "Look Outside","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Look Outside\\Game.exe" },
+
+ "LockdownProtocol.exe": { "name": "LOCKDOWN Protocol","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\LOCKDOWN Protocol\\LockdownProtocol.exe" },
+
+ "MageArena.exe": { "name": "Mage Arena", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mage Arena\\MageArena.exe" },
+
+ "OhDeer.exe":{ "name": "Oh Deer", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Oh Deer\\OhDeer.exe" },
+
+ "OxygenNotIncluded.exe":{ "name": "Oxygen Not Included", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\OxygenNotIncluded\\OxygenNotIncluded.exe" },
+
+ "PEAK.exe":{ "name": "PEAK","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\PEAK\\PEAK.exe" },
+
+ "Plan B Terraform.exe": { "name": "Plan B: Terraform","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Plan B Terraform\\Plan B Terraform.exe" },
+
+ "REPO.exe":{ "name": "R.E.P.O.","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\REPO\\REPO.exe" },
+
+ "ROUNDS.exe":{ "name": "ROUNDS", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ROUNDS\\ROUNDS.exe" },
+
+ "FactoryGameSteam.exe": { "name": "Satisfactory","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Satisfactory\\FactoryGameSteam.exe" },
+
+ "Schedule I.exe": { "name": "Schedule I", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Schedule I\\Schedule I.exe" },
+
+ "sekiro.exe":{ "name": "Sekiro: Shadows Die Twice","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sekiro\\sekiro.exe" },
+
+ "SkyrimSE.exe":  { "name": "Skyrim Special Edition",  "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Skyrim Special Edition\\SkyrimSE.exe" },
+
+ "SlaythePrincess.exe":{ "name": "Slay the Princess","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Princess\\SlaythePrincess.exe" },
+
+ "SonsOfTheForest.exe":{ "name": "Sons Of The Forest",  "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sons Of The Forest\\SonsOfTheForest.exe" },
+
+ "SpiderHeckApp.exe": { "name": "SpiderHeck", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SpiderHeck\\SpiderHeckApp.exe" },
+
+ "StickFight.exe": { "name": "Stick Fight: The Game","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\StickFightTheGame\\StickFight.exe" },
+
+ "Subnautica.exe": { "name": "Subnautica", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Subnautica\\Subnautica.exe" },
+
+ "Terraria.exe":  { "name": "Terraria","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Terraria\\Terraria.exe" },
+
+ "ULTRAKILL.exe": { "name": "ULTRAKILL",  "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ULTRAKILL\\ULTRAKILL.exe" },
+
+ "VRising.exe":{ "name": "V Rising","path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\VRising\\VRising.exe" },
+
+ "FortniteLauncher.exe": { "name": "Fortnite","path": "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Binaries\\Win64\\FortniteLauncher.exe" },
+
+ "BALL x PIT.exe": { "name": "Ball X Pit", "path": "C:\\XboxGames\\Ball X Pit\\Content\\BALL x PIT.exe" },
+
+ "Minecraft.exe": { "name": "Minecraft Launcher",  "path": "C:\\XboxGames\\Minecraft Launcher\\Content\\Minecraft.exe" },
+
+ "Minecraft.Windows.exe":{ "name": "Minecraft for Windows","path": "C:\\XboxGames\\Minecraft for Windows\\Content\\Minecraft.Windows.exe" },
+ 
+ "Palworld-WinGDK-Shipping.exe":{ "name": "Palworld","path": "C:\\XboxGames\\Palworld\\Content\\Pal\\Binaries\\WinGDK\\Palworld-WinGDK-Shipping.exe" }
+}

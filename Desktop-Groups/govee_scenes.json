@@ -1,0 +1,4457 @@
+{
+  "Floor Lamp Basic": {
+    "sku": "H6076",
+    "mac": "08:6E:D2:30:39:39:22:1E",
+    "scenes": [
+      {
+        "name": "Work",
+        "id": 2696,
+        "paramId": 2804
+      },
+      {
+        "name": "Study",
+        "id": 2697,
+        "paramId": 2805
+      },
+      {
+        "name": "White Light",
+        "id": 17289,
+        "paramId": 27444
+      },
+      {
+        "name": "Technology",
+        "id": 2698,
+        "paramId": 2806
+      },
+      {
+        "name": "Leisure",
+        "id": 17290,
+        "paramId": 27445
+      },
+      {
+        "name": "Candy",
+        "id": 2699,
+        "paramId": 2807
+      },
+      {
+        "name": "Meditation",
+        "id": 17291,
+        "paramId": 27446
+      },
+      {
+        "name": "Game",
+        "id": 2700,
+        "paramId": 2808
+      },
+      {
+        "name": "Dance Party",
+        "id": 17292,
+        "paramId": 27447
+      },
+      {
+        "name": "Afternoon Tea",
+        "id": 26278,
+        "paramId": 36951
+      },
+      {
+        "name": "Sleep",
+        "id": 26279,
+        "paramId": 36952
+      },
+      {
+        "name": "Naps",
+        "id": 26280,
+        "paramId": 36953
+      },
+      {
+        "name": "Dine Together",
+        "id": 26281,
+        "paramId": 36954
+      },
+      {
+        "name": "Yoga",
+        "id": 26282,
+        "paramId": 36955
+      },
+      {
+        "name": "Movie",
+        "id": 1242,
+        "paramId": 1317
+      },
+      {
+        "name": "Tunnel",
+        "id": 1243,
+        "paramId": 1318
+      },
+      {
+        "name": "Night Light",
+        "id": 1245,
+        "paramId": 1320
+      },
+      {
+        "name": "The Piano",
+        "id": 1246,
+        "paramId": 1321
+      },
+      {
+        "name": "Fireworks",
+        "id": 1247,
+        "paramId": 1322
+      },
+      {
+        "name": "Blossom",
+        "id": 2708,
+        "paramId": 2816
+      },
+      {
+        "name": "Pixie",
+        "id": 26283,
+        "paramId": 36956
+      },
+      {
+        "name": "Electro Dance",
+        "id": 1248,
+        "paramId": 1323
+      },
+      {
+        "name": "Accumulation",
+        "id": 1249,
+        "paramId": 1324
+      },
+      {
+        "name": "Release",
+        "id": 1250,
+        "paramId": 1325
+      },
+      {
+        "name": "Fight",
+        "id": 1251,
+        "paramId": 1326
+      },
+      {
+        "name": "Swing",
+        "id": 1252,
+        "paramId": 1327
+      },
+      {
+        "name": "Stacking",
+        "id": 1253,
+        "paramId": 1328
+      },
+      {
+        "name": "Bouncing Ball",
+        "id": 1254,
+        "paramId": 1329
+      },
+      {
+        "name": "Bubble",
+        "id": 1255,
+        "paramId": 1330
+      },
+      {
+        "name": "Desert B",
+        "id": 10093,
+        "paramId": 16963
+      },
+      {
+        "name": "Sand Grains",
+        "id": 10094,
+        "paramId": 16964
+      },
+      {
+        "name": "Karst Cave-A",
+        "id": 2687,
+        "paramId": 2795
+      },
+      {
+        "name": "Karst Cave-B",
+        "id": 2687,
+        "paramId": 27439
+      },
+      {
+        "name": "Glacier",
+        "id": 2688,
+        "paramId": 2796
+      },
+      {
+        "name": "Lake",
+        "id": 2689,
+        "paramId": 2797
+      },
+      {
+        "name": "Mountain Forest",
+        "id": 17281,
+        "paramId": 27435
+      },
+      {
+        "name": "Journey of Flowers",
+        "id": 2690,
+        "paramId": 2798
+      },
+      {
+        "name": "River",
+        "id": 17282,
+        "paramId": 27436
+      },
+      {
+        "name": "Downpour",
+        "id": 2691,
+        "paramId": 2799
+      },
+      {
+        "name": "Desert",
+        "id": 17283,
+        "paramId": 27437
+      },
+      {
+        "name": "Rustling leaves",
+        "id": 2692,
+        "paramId": 2800
+      },
+      {
+        "name": "Deep sea",
+        "id": 17284,
+        "paramId": 27438
+      },
+      {
+        "name": "Morning",
+        "id": 2693,
+        "paramId": 2801
+      },
+      {
+        "name": "Flower Field",
+        "id": 17285,
+        "paramId": 27440
+      },
+      {
+        "name": "Night",
+        "id": 2694,
+        "paramId": 2802
+      },
+      {
+        "name": "Sky",
+        "id": 17286,
+        "paramId": 27441
+      },
+      {
+        "name": "Volcano",
+        "id": 2695,
+        "paramId": 2803
+      },
+      {
+        "name": "Twilight",
+        "id": 17287,
+        "paramId": 27442
+      },
+      {
+        "name": "Thunderstorm",
+        "id": 17288,
+        "paramId": 27443
+      },
+      {
+        "name": "Warm Sun",
+        "id": 26269,
+        "paramId": 36942
+      },
+      {
+        "name": "Star",
+        "id": 26270,
+        "paramId": 36943
+      },
+      {
+        "name": "Lakeside",
+        "id": 26271,
+        "paramId": 36944
+      },
+      {
+        "name": "Floating Mist",
+        "id": 26272,
+        "paramId": 36945
+      },
+      {
+        "name": "Bouquet",
+        "id": 26273,
+        "paramId": 36946
+      },
+      {
+        "name": "Lavender",
+        "id": 26274,
+        "paramId": 36947
+      },
+      {
+        "name": "Sunflower",
+        "id": 26275,
+        "paramId": 36948
+      },
+      {
+        "name": "Carnations",
+        "id": 26276,
+        "paramId": 36949
+      },
+      {
+        "name": "Violets",
+        "id": 26277,
+        "paramId": 36950
+      },
+      {
+        "name": "Aurora",
+        "id": 10671,
+        "paramId": 17876
+      },
+      {
+        "name": "Rainbow-A",
+        "id": 1256,
+        "paramId": 1331
+      },
+      {
+        "name": "Rainbow-B",
+        "id": 1256,
+        "paramId": 11228
+      },
+      {
+        "name": "Meteor",
+        "id": 1257,
+        "paramId": 1332
+      },
+      {
+        "name": "Fire",
+        "id": 1258,
+        "paramId": 1333
+      },
+      {
+        "name": "Sunrise",
+        "id": 1259,
+        "paramId": 1334
+      },
+      {
+        "name": "Sunset",
+        "id": 1260,
+        "paramId": 1335
+      },
+      {
+        "name": "Ripple",
+        "id": 1261,
+        "paramId": 1336
+      },
+      {
+        "name": "Wave",
+        "id": 1262,
+        "paramId": 1337
+      },
+      {
+        "name": "Cherry blossoms",
+        "id": 1263,
+        "paramId": 1338
+      },
+      {
+        "name": "Forest",
+        "id": 1264,
+        "paramId": 1339
+      },
+      {
+        "name": "Sweet",
+        "id": 2701,
+        "paramId": 2809
+      },
+      {
+        "name": "Quiet",
+        "id": 17293,
+        "paramId": 27448
+      },
+      {
+        "name": "Dreamlike",
+        "id": 2702,
+        "paramId": 2810
+      },
+      {
+        "name": "Happy",
+        "id": 17294,
+        "paramId": 27449
+      },
+      {
+        "name": "Light",
+        "id": 2703,
+        "paramId": 2811
+      },
+      {
+        "name": "Tension",
+        "id": 17295,
+        "paramId": 27450
+      },
+      {
+        "name": "Tenderness",
+        "id": 2704,
+        "paramId": 2812
+      },
+      {
+        "name": "Unspoken Love",
+        "id": 17296,
+        "paramId": 27451
+      },
+      {
+        "name": "Warm",
+        "id": 2705,
+        "paramId": 2813
+      },
+      {
+        "name": "Enthusiastic",
+        "id": 17297,
+        "paramId": 27452
+      },
+      {
+        "name": "Profound",
+        "id": 2706,
+        "paramId": 2814
+      },
+      {
+        "name": "Leisurely",
+        "id": 2707,
+        "paramId": 2815
+      },
+      {
+        "name": "Dreamland",
+        "id": 1265,
+        "paramId": 1340
+      },
+      {
+        "name": "Cheerful",
+        "id": 1266,
+        "paramId": 1341
+      },
+      {
+        "name": "Rush",
+        "id": 1267,
+        "paramId": 1342
+      },
+      {
+        "name": "Heartbeat",
+        "id": 1268,
+        "paramId": 1343
+      },
+      {
+        "name": "Romantic",
+        "id": 1269,
+        "paramId": 1344
+      },
+      {
+        "name": "Easter",
+        "id": 17298,
+        "paramId": 27453
+      },
+      {
+        "name": "New Years",
+        "id": 17299,
+        "paramId": 27454
+      },
+      {
+        "name": "Saint Patrick's Day",
+        "id": 17300,
+        "paramId": 27455
+      },
+      {
+        "name": "Halloween",
+        "id": 2709,
+        "paramId": 2817
+      },
+      {
+        "name": "Thanksgiving",
+        "id": 17301,
+        "paramId": 27456
+      },
+      {
+        "name": "Christmas",
+        "id": 2710,
+        "paramId": 2818
+      },
+      {
+        "name": "Christmas Tree",
+        "id": 17302,
+        "paramId": 27457
+      },
+      {
+        "name": "Mother's Day",
+        "id": 2711,
+        "paramId": 2819
+      },
+      {
+        "name": "Christmas Gift",
+        "id": 17303,
+        "paramId": 27458
+      },
+      {
+        "name": "Father's Day",
+        "id": 2712,
+        "paramId": 2820
+      },
+      {
+        "name": "Carnival",
+        "id": 2713,
+        "paramId": 2821
+      },
+      {
+        "name": "Party",
+        "id": 2714,
+        "paramId": 2822
+      },
+      {
+        "name": "Birthday",
+        "id": 2715,
+        "paramId": 2823
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 2716,
+        "paramId": 2824
+      },
+      {
+        "name": "Halloween B",
+        "id": 26284,
+        "paramId": 36957
+      },
+      {
+        "name": "Children's Day",
+        "id": 26285,
+        "paramId": 36958
+      },
+      {
+        "name": "Family Day",
+        "id": 26286,
+        "paramId": 36959
+      },
+      {
+        "name": "Baroque",
+        "id": 26287,
+        "paramId": 36961
+      },
+      {
+        "name": "Rococo Style",
+        "id": 26288,
+        "paramId": 36962
+      },
+      {
+        "name": "Impressionism",
+        "id": 26289,
+        "paramId": 36963
+      },
+      {
+        "name": "Minimalism",
+        "id": 26290,
+        "paramId": 36964
+      },
+      {
+        "name": "Pop Art",
+        "id": 26291,
+        "paramId": 36965
+      },
+      {
+        "name": "Memphis Style",
+        "id": 26292,
+        "paramId": 36966
+      },
+      {
+        "name": "Cyberpunk",
+        "id": 26293,
+        "paramId": 36967
+      }
+    ]
+  },
+  "Light bar": {
+    "sku": "H6062",
+    "mac": "E1:94:D1:31:30:30:22:5D",
+    "scenes": [
+      {
+        "name": "Ocean",
+        "id": 256,
+        "paramId": 255
+      },
+      {
+        "name": "Forest",
+        "id": 257,
+        "paramId": 256
+      },
+      {
+        "name": "Sunset Glow",
+        "id": 258,
+        "paramId": 257
+      },
+      {
+        "name": "Rainbow",
+        "id": 260,
+        "paramId": 259
+      },
+      {
+        "name": "Desert",
+        "id": 287,
+        "paramId": 286
+      },
+      {
+        "name": "Flower Field",
+        "id": 288,
+        "paramId": 287
+      },
+      {
+        "name": "Meteor",
+        "id": 295,
+        "paramId": 294
+      },
+      {
+        "name": "Aurora",
+        "id": 298,
+        "paramId": 297
+      },
+      {
+        "name": "Stream",
+        "id": 301,
+        "paramId": 300
+      },
+      {
+        "name": "Sunrise",
+        "id": 6077,
+        "paramId": 7986
+      },
+      {
+        "name": "Sunset",
+        "id": 6078,
+        "paramId": 7987
+      },
+      {
+        "name": "Lake",
+        "id": 6079,
+        "paramId": 7988
+      },
+      {
+        "name": "Rustling leaves",
+        "id": 6080,
+        "paramId": 7989
+      },
+      {
+        "name": "Moonlight",
+        "id": 6081,
+        "paramId": 7990
+      },
+      {
+        "name": "Universe",
+        "id": 6082,
+        "paramId": 7991
+      },
+      {
+        "name": "Starry Sky",
+        "id": 6083,
+        "paramId": 7992
+      },
+      {
+        "name": "Glacier",
+        "id": 6084,
+        "paramId": 7993
+      },
+      {
+        "name": "Breeze",
+        "id": 6085,
+        "paramId": 7994
+      },
+      {
+        "name": "Morning",
+        "id": 6086,
+        "paramId": 7995
+      },
+      {
+        "name": "Ripple",
+        "id": 6087,
+        "paramId": 7996
+      },
+      {
+        "name": "Fire",
+        "id": 6088,
+        "paramId": 7997
+      },
+      {
+        "name": "Sunshine",
+        "id": 6105,
+        "paramId": 8014
+      },
+      {
+        "name": "Desert B",
+        "id": 10091,
+        "paramId": 16961
+      },
+      {
+        "name": "Sand Grains",
+        "id": 10092,
+        "paramId": 16962
+      },
+      {
+        "name": "Candlelight",
+        "id": 391,
+        "paramId": 427
+      },
+      {
+        "name": "Leisure",
+        "id": 270,
+        "paramId": 269
+      },
+      {
+        "name": "Night Light",
+        "id": 271,
+        "paramId": 270
+      },
+      {
+        "name": "Romantic",
+        "id": 272,
+        "paramId": 271
+      },
+      {
+        "name": "White Light",
+        "id": 8865,
+        "paramId": 13927
+      },
+      {
+        "name": "Siren",
+        "id": 289,
+        "paramId": 288
+      },
+      {
+        "name": "Party",
+        "id": 290,
+        "paramId": 289
+      },
+      {
+        "name": "Fight",
+        "id": 291,
+        "paramId": 290
+      },
+      {
+        "name": "Movie",
+        "id": 306,
+        "paramId": 305
+      },
+      {
+        "name": "Candy",
+        "id": 316,
+        "paramId": 315
+      },
+      {
+        "name": "Fashion",
+        "id": 319,
+        "paramId": 318
+      },
+      {
+        "name": "Joyful",
+        "id": 322,
+        "paramId": 321
+      },
+      {
+        "name": "Dreamlike",
+        "id": 325,
+        "paramId": 324
+      },
+      {
+        "name": "Fireworks",
+        "id": 326,
+        "paramId": 325
+      },
+      {
+        "name": "Awaken A",
+        "id": 15328,
+        "paramId": 24156
+      },
+      {
+        "name": "Awaken B",
+        "id": 15329,
+        "paramId": 24157
+      },
+      {
+        "name": "Awaken C",
+        "id": 15330,
+        "paramId": 24158
+      },
+      {
+        "name": "Meet",
+        "id": 363,
+        "paramId": 362
+      },
+      {
+        "name": "Technology",
+        "id": 364,
+        "paramId": 363
+      },
+      {
+        "name": "Breathe",
+        "id": 273,
+        "paramId": 272
+      },
+      {
+        "name": "Gradient",
+        "id": 275,
+        "paramId": 274
+      },
+      {
+        "name": "Energetic",
+        "id": 277,
+        "paramId": 276
+      },
+      {
+        "name": "Quiet",
+        "id": 292,
+        "paramId": 291
+      },
+      {
+        "name": "Warm",
+        "id": 293,
+        "paramId": 292
+      },
+      {
+        "name": "Optimistic",
+        "id": 329,
+        "paramId": 328
+      },
+      {
+        "name": "Longing",
+        "id": 6089,
+        "paramId": 7998
+      },
+      {
+        "name": "Heartbeat",
+        "id": 6090,
+        "paramId": 7999
+      },
+      {
+        "name": "Care",
+        "id": 6091,
+        "paramId": 8000
+      },
+      {
+        "name": "Meditation",
+        "id": 6092,
+        "paramId": 8001
+      },
+      {
+        "name": "Mysterious",
+        "id": 6093,
+        "paramId": 8002
+      },
+      {
+        "name": "Excited",
+        "id": 6094,
+        "paramId": 8003
+      },
+      {
+        "name": "Light",
+        "id": 6095,
+        "paramId": 8004
+      },
+      {
+        "name": "Falling in Love",
+        "id": 6106,
+        "paramId": 8015
+      },
+      {
+        "name": "Birthday",
+        "id": 392,
+        "paramId": 428
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 393,
+        "paramId": 429
+      },
+      {
+        "name": "Christmas",
+        "id": 279,
+        "paramId": 278
+      },
+      {
+        "name": "Halloween",
+        "id": 331,
+        "paramId": 330
+      },
+      {
+        "name": "Stacking",
+        "id": 281,
+        "paramId": 280
+      },
+      {
+        "name": "Greedy Snake",
+        "id": 282,
+        "paramId": 281
+      },
+      {
+        "name": "Bouncing Ball",
+        "id": 283,
+        "paramId": 282
+      },
+      {
+        "name": "Strike",
+        "id": 284,
+        "paramId": 283
+      },
+      {
+        "name": "Bubble",
+        "id": 285,
+        "paramId": 284
+      },
+      {
+        "name": "Crossing",
+        "id": 286,
+        "paramId": 285
+      },
+      {
+        "name": "Swing",
+        "id": 6096,
+        "paramId": 8005
+      },
+      {
+        "name": "Release",
+        "id": 6097,
+        "paramId": 8006
+      },
+      {
+        "name": "Split",
+        "id": 6098,
+        "paramId": 8007
+      }
+    ]
+  },
+  "LED panels": {
+    "sku": "H6067",
+    "mac": "35:C2:D3:32:39:36:18:5A",
+    "scenes": [
+      {
+        "name": "Aurora",
+        "id": 2248,
+        "paramId": 2356
+      },
+      {
+        "name": "Ocean",
+        "id": 2244,
+        "paramId": 2352
+      },
+      {
+        "name": "Forest",
+        "id": 2245,
+        "paramId": 2353
+      },
+      {
+        "name": "Sunset Glow",
+        "id": 2246,
+        "paramId": 2354
+      },
+      {
+        "name": "Starry Sky",
+        "id": 4358,
+        "paramId": 4905
+      },
+      {
+        "name": "Rainbow",
+        "id": 2247,
+        "paramId": 2355
+      },
+      {
+        "name": "Raining",
+        "id": 4359,
+        "paramId": 4906
+      },
+      {
+        "name": "Aurora",
+        "id": 2248,
+        "paramId": 2356
+      },
+      {
+        "name": "Star",
+        "id": 2249,
+        "paramId": 2357
+      },
+      {
+        "name": "Fire",
+        "id": 2250,
+        "paramId": 2358
+      },
+      {
+        "name": "Flower Field",
+        "id": 2251,
+        "paramId": 2359
+      },
+      {
+        "name": "Ripple",
+        "id": 2252,
+        "paramId": 2360
+      },
+      {
+        "name": "White Light",
+        "id": 9159,
+        "paramId": 15247
+      },
+      {
+        "name": "Crawl",
+        "id": 4360,
+        "paramId": 4907
+      },
+      {
+        "name": "Colorful",
+        "id": 4361,
+        "paramId": 4908
+      },
+      {
+        "name": "Movie",
+        "id": 2253,
+        "paramId": 2361
+      },
+      {
+        "name": "Romantic",
+        "id": 2256,
+        "paramId": 2364
+      },
+      {
+        "name": "Dreamland",
+        "id": 2257,
+        "paramId": 2365
+      },
+      {
+        "name": "Dance Party",
+        "id": 2258,
+        "paramId": 2366
+      },
+      {
+        "name": "Disco",
+        "id": 2259,
+        "paramId": 2367
+      },
+      {
+        "name": "Siren",
+        "id": 2260,
+        "paramId": 2368
+      },
+      {
+        "name": "Leisure",
+        "id": 2717,
+        "paramId": 2825
+      },
+      {
+        "name": "Awaken A",
+        "id": 15325,
+        "paramId": 24153
+      },
+      {
+        "name": "Night Light",
+        "id": 2718,
+        "paramId": 2826
+      },
+      {
+        "name": "Awaken B",
+        "id": 15326,
+        "paramId": 24154
+      },
+      {
+        "name": "Awaken C",
+        "id": 15327,
+        "paramId": 24155
+      },
+      {
+        "name": "Breathe",
+        "id": 2261,
+        "paramId": 2369
+      },
+      {
+        "name": "Energetic",
+        "id": 2262,
+        "paramId": 2370
+      },
+      {
+        "name": "Soothing",
+        "id": 2263,
+        "paramId": 2371
+      },
+      {
+        "name": "Dreamlike",
+        "id": 2264,
+        "paramId": 2372
+      },
+      {
+        "name": "Meditation",
+        "id": 2265,
+        "paramId": 2373
+      },
+      {
+        "name": "Optimistic",
+        "id": 2266,
+        "paramId": 2374
+      },
+      {
+        "name": "Refreshing",
+        "id": 2267,
+        "paramId": 2375
+      },
+      {
+        "name": "Sweet",
+        "id": 2268,
+        "paramId": 2376
+      },
+      {
+        "name": "Poker",
+        "id": 2269,
+        "paramId": 2377
+      },
+      {
+        "name": "Stacking",
+        "id": 2270,
+        "paramId": 2378
+      },
+      {
+        "name": "Intersection",
+        "id": 2271,
+        "paramId": 2379
+      },
+      {
+        "name": "Kaleidoscope",
+        "id": 2272,
+        "paramId": 2380
+      },
+      {
+        "name": "Flow",
+        "id": 2273,
+        "paramId": 2381
+      },
+      {
+        "name": "Christmas",
+        "id": 4362,
+        "paramId": 4909
+      },
+      {
+        "name": "Mother's Day",
+        "id": 4363,
+        "paramId": 4910
+      },
+      {
+        "name": "Father's Day",
+        "id": 4364,
+        "paramId": 4911
+      },
+      {
+        "name": "Easter",
+        "id": 4365,
+        "paramId": 4912
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 4366,
+        "paramId": 4913
+      },
+      {
+        "name": "Birthday",
+        "id": 4367,
+        "paramId": 4914
+      }
+    ]
+  },
+  "AI Gaming Sync Box Kit": {
+    "sku": "H6601",
+    "mac": "16:DA:C8:FB:F4:AE:D4:FF",
+    "scenes": [
+      {
+        "name": "Dreamlike",
+        "id": 3062,
+        "paramId": 3212
+      },
+      {
+        "name": "Sky",
+        "id": 15246,
+        "paramId": 24063
+      },
+      {
+        "name": "Sailboat",
+        "id": 15247,
+        "paramId": 24064
+      },
+      {
+        "name": "White Light",
+        "id": 8808,
+        "paramId": 13839
+      },
+      {
+        "name": "Leisure",
+        "id": 3054,
+        "paramId": 3204
+      },
+      {
+        "name": "Party",
+        "id": 3055,
+        "paramId": 3205
+      },
+      {
+        "name": "Dance Party",
+        "id": 3056,
+        "paramId": 3206
+      },
+      {
+        "name": "Dine Together",
+        "id": 3057,
+        "paramId": 3207
+      },
+      {
+        "name": "Dating",
+        "id": 3058,
+        "paramId": 3208
+      },
+      {
+        "name": "Adventure",
+        "id": 3059,
+        "paramId": 3209
+      },
+      {
+        "name": "Technology",
+        "id": 3060,
+        "paramId": 3210
+      },
+      {
+        "name": "Sports",
+        "id": 3061,
+        "paramId": 3211
+      },
+      {
+        "name": "Dreamlike",
+        "id": 3062,
+        "paramId": 3212
+      },
+      {
+        "name": "Dynamic",
+        "id": 3063,
+        "paramId": 3213
+      },
+      {
+        "name": "Blossom",
+        "id": 3064,
+        "paramId": 3214
+      },
+      {
+        "name": "Christmas",
+        "id": 3065,
+        "paramId": 3215
+      },
+      {
+        "name": "Halloween",
+        "id": 3066,
+        "paramId": 3216
+      },
+      {
+        "name": "Fireworks",
+        "id": 3067,
+        "paramId": 3217
+      },
+      {
+        "name": "Ghost",
+        "id": 3068,
+        "paramId": 3218
+      },
+      {
+        "name": "Easter",
+        "id": 3069,
+        "paramId": 3219
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 3070,
+        "paramId": 3220
+      },
+      {
+        "name": "Stacking",
+        "id": 3072,
+        "paramId": 3222
+      },
+      {
+        "name": "Shoot",
+        "id": 3073,
+        "paramId": 3223
+      },
+      {
+        "name": "Racing",
+        "id": 3074,
+        "paramId": 3224
+      },
+      {
+        "name": "Poker",
+        "id": 3075,
+        "paramId": 3225
+      },
+      {
+        "name": "Crossing",
+        "id": 3076,
+        "paramId": 3226
+      },
+      {
+        "name": "Fight",
+        "id": 3077,
+        "paramId": 3227
+      },
+      {
+        "name": "Electro Dance",
+        "id": 3078,
+        "paramId": 3228
+      },
+      {
+        "name": "Swing",
+        "id": 3079,
+        "paramId": 3229
+      },
+      {
+        "name": "Candy Crush",
+        "id": 3080,
+        "paramId": 3230
+      },
+      {
+        "name": "Portal",
+        "id": 3081,
+        "paramId": 3231
+      },
+      {
+        "name": "Freeze",
+        "id": 3082,
+        "paramId": 3232
+      },
+      {
+        "name": "Spin",
+        "id": 3071,
+        "paramId": 3221
+      },
+      {
+        "name": "Excited",
+        "id": 3083,
+        "paramId": 3233
+      },
+      {
+        "name": "Tension",
+        "id": 3084,
+        "paramId": 3234
+      },
+      {
+        "name": "Fright",
+        "id": 3085,
+        "paramId": 3235
+      },
+      {
+        "name": "Energetic",
+        "id": 3086,
+        "paramId": 3236
+      },
+      {
+        "name": "Doubt",
+        "id": 3087,
+        "paramId": 3237
+      },
+      {
+        "name": "Meditation",
+        "id": 3088,
+        "paramId": 3238
+      },
+      {
+        "name": "Daze",
+        "id": 3089,
+        "paramId": 3239
+      },
+      {
+        "name": "Action",
+        "id": 3090,
+        "paramId": 3240
+      },
+      {
+        "name": "Rivalry",
+        "id": 3091,
+        "paramId": 3241
+      },
+      {
+        "name": "Puzzle Game",
+        "id": 3092,
+        "paramId": 3242
+      },
+      {
+        "name": "Shooting Game",
+        "id": 3093,
+        "paramId": 3243
+      },
+      {
+        "name": "Racing Game",
+        "id": 3094,
+        "paramId": 3244
+      },
+      {
+        "name": "Card Playing",
+        "id": 3095,
+        "paramId": 3245
+      }
+    ]
+  },
+  "TV Backlight": {
+    "sku": "H6099",
+    "mac": "B7:7E:D2:39:32:35:28:5A",
+    "scenes": []
+  },
+  "Glide Hexa Ultra": {
+    "sku": "H606A",
+    "mac": "1B:EE:C4:CB:CA:15:E8:9E",
+    "scenes": [
+      {
+        "name": "Ripple",
+        "id": 6971,
+        "paramId": 9674
+      },
+      {
+        "name": "Morning",
+        "id": 6975,
+        "paramId": 9678
+      },
+      {
+        "name": "Dreamlike",
+        "id": 7259,
+        "paramId": 10531
+      },
+      {
+        "name": "Matrix",
+        "id": 6948,
+        "paramId": 9651
+      },
+      {
+        "name": "Crawl",
+        "id": 6949,
+        "paramId": 9652
+      },
+      {
+        "name": "Cubic",
+        "id": 6950,
+        "paramId": 9653
+      },
+      {
+        "name": "Phantom",
+        "id": 6951,
+        "paramId": 9654
+      },
+      {
+        "name": "Layering",
+        "id": 6952,
+        "paramId": 9655
+      },
+      {
+        "name": "Breathe",
+        "id": 6953,
+        "paramId": 9656
+      },
+      {
+        "name": "Illusion",
+        "id": 6954,
+        "paramId": 9657
+      },
+      {
+        "name": "Glistening",
+        "id": 6955,
+        "paramId": 9658
+      },
+      {
+        "name": "Heat Wave",
+        "id": 8020,
+        "paramId": 12162
+      },
+      {
+        "name": "Rubik's Cube",
+        "id": 8021,
+        "paramId": 12163
+      },
+      {
+        "name": "Arcane Light",
+        "id": 7689,
+        "paramId": 11236
+      },
+      {
+        "name": "Speeding",
+        "id": 7690,
+        "paramId": 11237
+      },
+      {
+        "name": "Cyber",
+        "id": 6956,
+        "paramId": 9659
+      },
+      {
+        "name": "Split",
+        "id": 6957,
+        "paramId": 9660
+      },
+      {
+        "name": "Vision",
+        "id": 6958,
+        "paramId": 9661
+      },
+      {
+        "name": "Evolution",
+        "id": 6959,
+        "paramId": 9662
+      },
+      {
+        "name": "Spin",
+        "id": 6960,
+        "paramId": 9663
+      },
+      {
+        "name": "Kaleidoscope",
+        "id": 6961,
+        "paramId": 9664
+      },
+      {
+        "name": "Circuit",
+        "id": 6962,
+        "paramId": 9665
+      },
+      {
+        "name": "Profound",
+        "id": 6963,
+        "paramId": 9666
+      },
+      {
+        "name": "Emerald",
+        "id": 8022,
+        "paramId": 12164
+      },
+      {
+        "name": "Honeycomb",
+        "id": 8023,
+        "paramId": 12165
+      },
+      {
+        "name": "Ocean",
+        "id": 6964,
+        "paramId": 9667
+      },
+      {
+        "name": "Forest",
+        "id": 6965,
+        "paramId": 9668
+      },
+      {
+        "name": "Sunset Glow",
+        "id": 6966,
+        "paramId": 9669
+      },
+      {
+        "name": "Rainbow",
+        "id": 6967,
+        "paramId": 9670
+      },
+      {
+        "name": "Aurora",
+        "id": 6968,
+        "paramId": 9671
+      },
+      {
+        "name": "Fire",
+        "id": 6969,
+        "paramId": 9672
+      },
+      {
+        "name": "Flower Field",
+        "id": 6970,
+        "paramId": 9673
+      },
+      {
+        "name": "Ripple",
+        "id": 6971,
+        "paramId": 9674
+      },
+      {
+        "name": "Starry Sky",
+        "id": 7237,
+        "paramId": 10509
+      },
+      {
+        "name": "Firefly",
+        "id": 7238,
+        "paramId": 10510
+      },
+      {
+        "name": "Spring",
+        "id": 7239,
+        "paramId": 10511
+      },
+      {
+        "name": "Summer",
+        "id": 7240,
+        "paramId": 10512
+      },
+      {
+        "name": "Fall",
+        "id": 7241,
+        "paramId": 10513
+      },
+      {
+        "name": "Winter",
+        "id": 7242,
+        "paramId": 10514
+      },
+      {
+        "name": "Meteor shower",
+        "id": 8024,
+        "paramId": 12166
+      },
+      {
+        "name": "Desert",
+        "id": 8025,
+        "paramId": 12167
+      },
+      {
+        "name": "Rustling leaves",
+        "id": 8026,
+        "paramId": 12168
+      },
+      {
+        "name": "Glacier",
+        "id": 8027,
+        "paramId": 12169
+      },
+      {
+        "name": "Waves",
+        "id": 8028,
+        "paramId": 12170
+      },
+      {
+        "name": "Lotus Pond",
+        "id": 8029,
+        "paramId": 12171
+      },
+      {
+        "name": "Leisure",
+        "id": 6972,
+        "paramId": 9675
+      },
+      {
+        "name": "Movie",
+        "id": 6973,
+        "paramId": 9676
+      },
+      {
+        "name": "Night Light",
+        "id": 6974,
+        "paramId": 9677
+      },
+      {
+        "name": "Morning",
+        "id": 6975,
+        "paramId": 9678
+      },
+      {
+        "name": "Afternoon",
+        "id": 6976,
+        "paramId": 9679
+      },
+      {
+        "name": "Night",
+        "id": 6977,
+        "paramId": 9680
+      },
+      {
+        "name": "Romantic",
+        "id": 7243,
+        "paramId": 10515
+      },
+      {
+        "name": "Dance Party",
+        "id": 7244,
+        "paramId": 10516
+      },
+      {
+        "name": "Game",
+        "id": 7245,
+        "paramId": 10517
+      },
+      {
+        "name": "Sports",
+        "id": 7246,
+        "paramId": 10518
+      },
+      {
+        "name": "Candy",
+        "id": 7247,
+        "paramId": 10519
+      },
+      {
+        "name": "Colorful",
+        "id": 7248,
+        "paramId": 10520
+      },
+      {
+        "name": "Christmas",
+        "id": 7249,
+        "paramId": 10521
+      },
+      {
+        "name": "Halloween",
+        "id": 7250,
+        "paramId": 10522
+      },
+      {
+        "name": "Mother's Day",
+        "id": 7251,
+        "paramId": 10523
+      },
+      {
+        "name": "Father's Day",
+        "id": 7252,
+        "paramId": 10524
+      },
+      {
+        "name": "Easter",
+        "id": 7253,
+        "paramId": 10525
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 7254,
+        "paramId": 10526
+      },
+      {
+        "name": "Carnival",
+        "id": 7255,
+        "paramId": 10527
+      },
+      {
+        "name": "Birthday",
+        "id": 7256,
+        "paramId": 10528
+      },
+      {
+        "name": "Energetic",
+        "id": 7257,
+        "paramId": 10529
+      },
+      {
+        "name": "Soothing",
+        "id": 7258,
+        "paramId": 10530
+      },
+      {
+        "name": "Dreamlike",
+        "id": 7259,
+        "paramId": 10531
+      },
+      {
+        "name": "Meditation",
+        "id": 7260,
+        "paramId": 10532
+      },
+      {
+        "name": "Sleep",
+        "id": 7261,
+        "paramId": 10533
+      },
+      {
+        "name": "Excited",
+        "id": 7262,
+        "paramId": 10534
+      },
+      {
+        "name": "Sweet",
+        "id": 7263,
+        "paramId": 10535
+      },
+      {
+        "name": "Mysterious",
+        "id": 7264,
+        "paramId": 10536
+      },
+      {
+        "name": "Refreshing",
+        "id": 7265,
+        "paramId": 10537
+      },
+      {
+        "name": "Quiet",
+        "id": 7266,
+        "paramId": 10538
+      }
+    ]
+  },
+  "Box (Basement)": {
+    "sku": "H6602",
+    "mac": "15:C7:D1:07:FD:3D:A9:0F",
+    "scenes": [
+      {
+        "name": "Desert B",
+        "id": 10066,
+        "paramId": 16934
+      },
+      {
+        "name": "Sand Grains",
+        "id": 10067,
+        "paramId": 16935
+      },
+      {
+        "name": "Sunny-A",
+        "id": 378,
+        "paramId": 396
+      },
+      {
+        "name": "Sunny-B",
+        "id": 378,
+        "paramId": 430
+      },
+      {
+        "name": "Tundra",
+        "id": 637,
+        "paramId": 684
+      },
+      {
+        "name": "Frozen River",
+        "id": 638,
+        "paramId": 685
+      },
+      {
+        "name": "Mountains",
+        "id": 639,
+        "paramId": 686
+      },
+      {
+        "name": "Sunrise",
+        "id": 128,
+        "paramId": 110
+      },
+      {
+        "name": "Sunset",
+        "id": 129,
+        "paramId": 111
+      },
+      {
+        "name": "Desert Island",
+        "id": 642,
+        "paramId": 689
+      },
+      {
+        "name": "Rustling leaves",
+        "id": 131,
+        "paramId": 113
+      },
+      {
+        "name": "Spire",
+        "id": 643,
+        "paramId": 690
+      },
+      {
+        "name": "Universe-B",
+        "id": 132,
+        "paramId": 2882
+      },
+      {
+        "name": "Castle",
+        "id": 644,
+        "paramId": 691
+      },
+      {
+        "name": "Farm",
+        "id": 645,
+        "paramId": 692
+      },
+      {
+        "name": "Lake",
+        "id": 646,
+        "paramId": 693
+      },
+      {
+        "name": "Aurora-A",
+        "id": 135,
+        "paramId": 117
+      },
+      {
+        "name": "Aurora-B",
+        "id": 135,
+        "paramId": 1771
+      },
+      {
+        "name": "Swamp",
+        "id": 647,
+        "paramId": 694
+      },
+      {
+        "name": "Lightning-C",
+        "id": 136,
+        "paramId": 403
+      },
+      {
+        "name": "Cliffs",
+        "id": 648,
+        "paramId": 695
+      },
+      {
+        "name": "Starry Sky",
+        "id": 137,
+        "paramId": 119
+      },
+      {
+        "name": "Star",
+        "id": 138,
+        "paramId": 120
+      },
+      {
+        "name": "Snow flake-A",
+        "id": 139,
+        "paramId": 121
+      },
+      {
+        "name": "Snow flake-B",
+        "id": 139,
+        "paramId": 425
+      },
+      {
+        "name": "Spring",
+        "id": 140,
+        "paramId": 122
+      },
+      {
+        "name": "Sky",
+        "id": 15244,
+        "paramId": 24061
+      },
+      {
+        "name": "Summer",
+        "id": 141,
+        "paramId": 123
+      },
+      {
+        "name": "Sailboat",
+        "id": 15245,
+        "paramId": 24062
+      },
+      {
+        "name": "Fall",
+        "id": 142,
+        "paramId": 124
+      },
+      {
+        "name": "Winter",
+        "id": 143,
+        "paramId": 125
+      },
+      {
+        "name": "City-State",
+        "id": 655,
+        "paramId": 702
+      },
+      {
+        "name": "Rainbow-A",
+        "id": 144,
+        "paramId": 126
+      },
+      {
+        "name": "Rainbow-B",
+        "id": 144,
+        "paramId": 11221
+      },
+      {
+        "name": "Ruins",
+        "id": 656,
+        "paramId": 703
+      },
+      {
+        "name": "Fire-B",
+        "id": 145,
+        "paramId": 364
+      },
+      {
+        "name": "Fire-C",
+        "id": 145,
+        "paramId": 1775
+      },
+      {
+        "name": "Garden",
+        "id": 657,
+        "paramId": 704
+      },
+      {
+        "name": "Ripple",
+        "id": 146,
+        "paramId": 128
+      },
+      {
+        "name": "Mountains",
+        "id": 658,
+        "paramId": 705
+      },
+      {
+        "name": "Wave-B",
+        "id": 147,
+        "paramId": 2881
+      },
+      {
+        "name": "Arena",
+        "id": 659,
+        "paramId": 706
+      },
+      {
+        "name": "Deep sea",
+        "id": 148,
+        "paramId": 130
+      },
+      {
+        "name": "Sea bottom",
+        "id": 660,
+        "paramId": 707
+      },
+      {
+        "name": "Watermelon",
+        "id": 14500,
+        "paramId": 23311
+      },
+      {
+        "name": "Taiga",
+        "id": 3499,
+        "paramId": 3658
+      },
+      {
+        "name": "Karst Cave-A",
+        "id": 218,
+        "paramId": 198
+      },
+      {
+        "name": "Karst Cave-B",
+        "id": 218,
+        "paramId": 231
+      },
+      {
+        "name": "Karst Cave-C",
+        "id": 218,
+        "paramId": 2885
+      },
+      {
+        "name": "Glacier",
+        "id": 219,
+        "paramId": 199
+      },
+      {
+        "name": "Cornfield",
+        "id": 222,
+        "paramId": 202
+      },
+      {
+        "name": "Flower Field-B",
+        "id": 223,
+        "paramId": 1767
+      },
+      {
+        "name": "Volcano-A",
+        "id": 224,
+        "paramId": 204
+      },
+      {
+        "name": "Volcano-B",
+        "id": 224,
+        "paramId": 233
+      },
+      {
+        "name": "Christmas-A",
+        "id": 150,
+        "paramId": 132
+      },
+      {
+        "name": "Christmas-B",
+        "id": 150,
+        "paramId": 234
+      },
+      {
+        "name": "Halloween-A",
+        "id": 151,
+        "paramId": 133
+      },
+      {
+        "name": "Halloween-B",
+        "id": 151,
+        "paramId": 2880
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 152,
+        "paramId": 134
+      },
+      {
+        "name": "Candlelight",
+        "id": 153,
+        "paramId": 135
+      },
+      {
+        "name": "Birthday",
+        "id": 154,
+        "paramId": 136
+      },
+      {
+        "name": "Fireworks-B",
+        "id": 155,
+        "paramId": 235
+      },
+      {
+        "name": "Ghost-A",
+        "id": 158,
+        "paramId": 140
+      },
+      {
+        "name": "Ghost-B",
+        "id": 158,
+        "paramId": 2877
+      },
+      {
+        "name": "Party-A",
+        "id": 159,
+        "paramId": 141
+      },
+      {
+        "name": "Party-C",
+        "id": 159,
+        "paramId": 1773
+      },
+      {
+        "name": "Dance Party-A",
+        "id": 160,
+        "paramId": 142
+      },
+      {
+        "name": "Dance Party-B",
+        "id": 160,
+        "paramId": 802
+      },
+      {
+        "name": "Carnival",
+        "id": 162,
+        "paramId": 144
+      },
+      {
+        "name": "Mother's Day",
+        "id": 163,
+        "paramId": 145
+      },
+      {
+        "name": "Father's Day",
+        "id": 164,
+        "paramId": 146
+      },
+      {
+        "name": "Easter",
+        "id": 10672,
+        "paramId": 17877
+      },
+      {
+        "name": "Christmas Tree",
+        "id": 5068,
+        "paramId": 5618
+      },
+      {
+        "name": "Sled",
+        "id": 5069,
+        "paramId": 5619
+      },
+      {
+        "name": "Christmas Gift",
+        "id": 5070,
+        "paramId": 5620
+      },
+      {
+        "name": "Thanksgiving",
+        "id": 15332,
+        "paramId": 24160
+      },
+      {
+        "name": "Awaken A",
+        "id": 18007,
+        "paramId": 28169
+      },
+      {
+        "name": "Awaken B",
+        "id": 18008,
+        "paramId": 28170
+      },
+      {
+        "name": "Awaken C",
+        "id": 18009,
+        "paramId": 28171
+      },
+      {
+        "name": "Motorcycle",
+        "id": 649,
+        "paramId": 696
+      },
+      {
+        "name": "Car",
+        "id": 650,
+        "paramId": 697
+      },
+      {
+        "name": "Police Car",
+        "id": 651,
+        "paramId": 698
+      },
+      {
+        "name": "Speedboat",
+        "id": 652,
+        "paramId": 699
+      },
+      {
+        "name": "Helicopter",
+        "id": 653,
+        "paramId": 700
+      },
+      {
+        "name": "Tank",
+        "id": 654,
+        "paramId": 701
+      },
+      {
+        "name": "Sweet",
+        "id": 165,
+        "paramId": 147
+      },
+      {
+        "name": "Romantic",
+        "id": 166,
+        "paramId": 148
+      },
+      {
+        "name": "Dating",
+        "id": 167,
+        "paramId": 149
+      },
+      {
+        "name": "Movie",
+        "id": 168,
+        "paramId": 150
+      },
+      {
+        "name": "Siren-A",
+        "id": 170,
+        "paramId": 152
+      },
+      {
+        "name": "Game-B",
+        "id": 171,
+        "paramId": 392
+      },
+      {
+        "name": "Game-C",
+        "id": 171,
+        "paramId": 1774
+      },
+      {
+        "name": "Game-D",
+        "id": 171,
+        "paramId": 2875
+      },
+      {
+        "name": "Crossing",
+        "id": 172,
+        "paramId": 154
+      },
+      {
+        "name": "Night-A",
+        "id": 173,
+        "paramId": 155
+      },
+      {
+        "name": "Night-B",
+        "id": 173,
+        "paramId": 804
+      },
+      {
+        "name": "Sleep-A",
+        "id": 174,
+        "paramId": 156
+      },
+      {
+        "name": "Sleep-B",
+        "id": 174,
+        "paramId": 708
+      },
+      {
+        "name": "Sleep-C",
+        "id": 174,
+        "paramId": 1776
+      },
+      {
+        "name": "Morning",
+        "id": 175,
+        "paramId": 157
+      },
+      {
+        "name": "Afternoon",
+        "id": 176,
+        "paramId": 158
+      },
+      {
+        "name": "Study",
+        "id": 177,
+        "paramId": 159
+      },
+      {
+        "name": "Business",
+        "id": 178,
+        "paramId": 160
+      },
+      {
+        "name": "Reading",
+        "id": 179,
+        "paramId": 161
+      },
+      {
+        "name": "Dreamlike-A",
+        "id": 7610,
+        "paramId": 11012
+      },
+      {
+        "name": "Dreamlike-B",
+        "id": 7610,
+        "paramId": 11835
+      },
+      {
+        "name": "Undersea King",
+        "id": 8400,
+        "paramId": 13404
+      },
+      {
+        "name": "Deep Sea B",
+        "id": 8402,
+        "paramId": 13406
+      },
+      {
+        "name": "Work",
+        "id": 225,
+        "paramId": 205
+      },
+      {
+        "name": "Leisure-A",
+        "id": 226,
+        "paramId": 206
+      },
+      {
+        "name": "Leisure-B",
+        "id": 226,
+        "paramId": 2883
+      },
+      {
+        "name": "Meditation-B",
+        "id": 227,
+        "paramId": 714
+      },
+      {
+        "name": "Meditation-C",
+        "id": 227,
+        "paramId": 715
+      },
+      {
+        "name": "Care-B",
+        "id": 228,
+        "paramId": 240
+      },
+      {
+        "name": "Twinkle-A",
+        "id": 180,
+        "paramId": 162
+      },
+      {
+        "name": "Dreamland-A",
+        "id": 181,
+        "paramId": 163
+      },
+      {
+        "name": "Dreamland-B",
+        "id": 181,
+        "paramId": 241
+      },
+      {
+        "name": "Dreamland-C",
+        "id": 181,
+        "paramId": 242
+      },
+      {
+        "name": "Dreamland-D",
+        "id": 181,
+        "paramId": 243
+      },
+      {
+        "name": "Dreamland-E",
+        "id": 181,
+        "paramId": 710
+      },
+      {
+        "name": "Dreamland-F",
+        "id": 181,
+        "paramId": 712
+      },
+      {
+        "name": "Dreamland-G",
+        "id": 181,
+        "paramId": 713
+      },
+      {
+        "name": "Breathe",
+        "id": 182,
+        "paramId": 164
+      },
+      {
+        "name": "Energetic-A",
+        "id": 183,
+        "paramId": 165
+      },
+      {
+        "name": "Energetic-B",
+        "id": 183,
+        "paramId": 1768
+      },
+      {
+        "name": "Energetic-C",
+        "id": 183,
+        "paramId": 1770
+      },
+      {
+        "name": "Energetic-D",
+        "id": 183,
+        "paramId": 2884
+      },
+      {
+        "name": "Excited-A",
+        "id": 184,
+        "paramId": 166
+      },
+      {
+        "name": "Excited-C",
+        "id": 184,
+        "paramId": 375
+      },
+      {
+        "name": "Happy-B",
+        "id": 185,
+        "paramId": 810
+      },
+      {
+        "name": "Profound",
+        "id": 187,
+        "paramId": 169
+      },
+      {
+        "name": "Mysterious-A",
+        "id": 188,
+        "paramId": 170
+      },
+      {
+        "name": "Quiet-A",
+        "id": 189,
+        "paramId": 171
+      },
+      {
+        "name": "Quiet-B",
+        "id": 189,
+        "paramId": 811
+      },
+      {
+        "name": "Longing",
+        "id": 190,
+        "paramId": 172
+      },
+      {
+        "name": "Warm-A",
+        "id": 191,
+        "paramId": 173
+      },
+      {
+        "name": "Stacking",
+        "id": 192,
+        "paramId": 174
+      },
+      {
+        "name": "Release-A",
+        "id": 229,
+        "paramId": 209
+      },
+      {
+        "name": "Flow-B",
+        "id": 230,
+        "paramId": 1766
+      },
+      {
+        "name": "Swing",
+        "id": 232,
+        "paramId": 212
+      },
+      {
+        "name": "Tension-A",
+        "id": 233,
+        "paramId": 213
+      },
+      {
+        "name": "Tension-B",
+        "id": 233,
+        "paramId": 809
+      },
+      {
+        "name": "Heartbeat-A",
+        "id": 748,
+        "paramId": 806
+      },
+      {
+        "name": "Heartbeat-B",
+        "id": 748,
+        "paramId": 812
+      },
+      {
+        "name": "Cheerful",
+        "id": 250,
+        "paramId": 247
+      },
+      {
+        "name": "Rush",
+        "id": 254,
+        "paramId": 253
+      }
+    ]
+  },
+  "Rope lights": {
+    "sku": "H61A1",
+    "mac": "9A:F5:D4:AD:FC:3E:E0:41",
+    "scenes": [
+      {
+        "name": "Heart Line-A",
+        "id": 6661,
+        "paramId": 8613
+      },
+      {
+        "name": "Heart Line-B",
+        "id": 6661,
+        "paramId": 8614
+      },
+      {
+        "name": "muscle",
+        "id": 6662,
+        "paramId": 8615
+      },
+      {
+        "name": "Love Heart",
+        "id": 6663,
+        "paramId": 8616
+      },
+      {
+        "name": "Cupcake",
+        "id": 6664,
+        "paramId": 8617
+      },
+      {
+        "name": "Tooth A",
+        "id": 6665,
+        "paramId": 8618
+      },
+      {
+        "name": "Lipstick",
+        "id": 6666,
+        "paramId": 8619
+      },
+      {
+        "name": "Heartbreak",
+        "id": 6667,
+        "paramId": 8620
+      },
+      {
+        "name": "Crown",
+        "id": 6668,
+        "paramId": 8621
+      },
+      {
+        "name": "Shopping Bag",
+        "id": 6669,
+        "paramId": 8622
+      },
+      {
+        "name": "Skirt A",
+        "id": 6670,
+        "paramId": 8623
+      },
+      {
+        "name": "Phone",
+        "id": 6671,
+        "paramId": 8624
+      },
+      {
+        "name": "Small Boat",
+        "id": 6672,
+        "paramId": 8625
+      },
+      {
+        "name": "Shopping Cart",
+        "id": 6673,
+        "paramId": 8626
+      },
+      {
+        "name": "Fighter Aircraft",
+        "id": 6674,
+        "paramId": 8627
+      },
+      {
+        "name": "Hat",
+        "id": 6675,
+        "paramId": 8628
+      },
+      {
+        "name": "Glasses",
+        "id": 6676,
+        "paramId": 8629
+      },
+      {
+        "name": "Lit Match",
+        "id": 6677,
+        "paramId": 8630
+      },
+      {
+        "name": "Money Bag",
+        "id": 6678,
+        "paramId": 8631
+      },
+      {
+        "name": "Hot Chocolate",
+        "id": 6679,
+        "paramId": 8632
+      },
+      {
+        "name": "Angel A",
+        "id": 6680,
+        "paramId": 8633
+      },
+      {
+        "name": "Message Icon",
+        "id": 6681,
+        "paramId": 8634
+      },
+      {
+        "name": "Hourglass",
+        "id": 6682,
+        "paramId": 8635
+      },
+      {
+        "name": "Thundercloud",
+        "id": 6683,
+        "paramId": 8636
+      },
+      {
+        "name": "Feather",
+        "id": 6684,
+        "paramId": 8637
+      },
+      {
+        "name": "Little Tree",
+        "id": 6685,
+        "paramId": 8638
+      },
+      {
+        "name": "Meteor",
+        "id": 6686,
+        "paramId": 8639
+      },
+      {
+        "name": "Auspicious Clouds",
+        "id": 6687,
+        "paramId": 8640
+      },
+      {
+        "name": "Sun",
+        "id": 6688,
+        "paramId": 8641
+      },
+      {
+        "name": "Electric Guitar",
+        "id": 6689,
+        "paramId": 8642
+      },
+      {
+        "name": "Victory Gesture",
+        "id": 6690,
+        "paramId": 8643
+      },
+      {
+        "name": "Astronaut",
+        "id": 6691,
+        "paramId": 8644
+      },
+      {
+        "name": "Wooden Guitar",
+        "id": 6692,
+        "paramId": 8645
+      },
+      {
+        "name": "Airship",
+        "id": 6693,
+        "paramId": 8646
+      },
+      {
+        "name": "Bow",
+        "id": 6694,
+        "paramId": 8647
+      },
+      {
+        "name": "Kung Fu",
+        "id": 6695,
+        "paramId": 8648
+      },
+      {
+        "name": "Yoga",
+        "id": 6696,
+        "paramId": 8649
+      },
+      {
+        "name": "Statue",
+        "id": 6697,
+        "paramId": 8650
+      },
+      {
+        "name": "Map Icon",
+        "id": 6698,
+        "paramId": 8651
+      },
+      {
+        "name": "Loving Home",
+        "id": 6699,
+        "paramId": 8652
+      },
+      {
+        "name": "Dove",
+        "id": 6700,
+        "paramId": 8653
+      },
+      {
+        "name": "Proud Cat",
+        "id": 6701,
+        "paramId": 8654
+      },
+      {
+        "name": "Unicorn A",
+        "id": 6702,
+        "paramId": 8655
+      },
+      {
+        "name": "Sparrow",
+        "id": 6703,
+        "paramId": 8656
+      },
+      {
+        "name": "Deer Antlers",
+        "id": 6704,
+        "paramId": 8657
+      },
+      {
+        "name": "Flamingo",
+        "id": 6705,
+        "paramId": 8658
+      },
+      {
+        "name": "Watermelon",
+        "id": 6706,
+        "paramId": 8659
+      },
+      {
+        "name": "Tulip",
+        "id": 6707,
+        "paramId": 8660
+      },
+      {
+        "name": "Corn",
+        "id": 6708,
+        "paramId": 8661
+      },
+      {
+        "name": "Mushroom",
+        "id": 6709,
+        "paramId": 8662
+      },
+      {
+        "name": "Peach",
+        "id": 6710,
+        "paramId": 8663
+      },
+      {
+        "name": "Music Note",
+        "id": 5739,
+        "paramId": 7648
+      },
+      {
+        "name": "Ear",
+        "id": 5740,
+        "paramId": 7649
+      },
+      {
+        "name": "Lips",
+        "id": 5741,
+        "paramId": 7650
+      },
+      {
+        "name": "Ice-cream Cone",
+        "id": 5742,
+        "paramId": 7651
+      },
+      {
+        "name": "Cherry",
+        "id": 5743,
+        "paramId": 7652
+      },
+      {
+        "name": "Big Boot",
+        "id": 5744,
+        "paramId": 7653
+      },
+      {
+        "name": "Balloons",
+        "id": 5745,
+        "paramId": 7654
+      },
+      {
+        "name": "Sailboat",
+        "id": 5746,
+        "paramId": 7655
+      },
+      {
+        "name": "Heartbeat",
+        "id": 5747,
+        "paramId": 7656
+      },
+      {
+        "name": "Popsicle",
+        "id": 5748,
+        "paramId": 7657
+      },
+      {
+        "name": "Airplane",
+        "id": 5749,
+        "paramId": 7658
+      },
+      {
+        "name": "Headphones",
+        "id": 5750,
+        "paramId": 7659
+      },
+      {
+        "name": "High Heels B",
+        "id": 5751,
+        "paramId": 7660
+      },
+      {
+        "name": "Trophy",
+        "id": 5752,
+        "paramId": 7661
+      },
+      {
+        "name": "Cupid's Arrow",
+        "id": 5753,
+        "paramId": 7662
+      },
+      {
+        "name": "Wrench",
+        "id": 5754,
+        "paramId": 7663
+      },
+      {
+        "name": "Like",
+        "id": 5755,
+        "paramId": 7664
+      },
+      {
+        "name": "Table Lamp",
+        "id": 5756,
+        "paramId": 7665
+      },
+      {
+        "name": "Mustache",
+        "id": 5757,
+        "paramId": 7666
+      },
+      {
+        "name": "Moon",
+        "id": 5758,
+        "paramId": 7667
+      },
+      {
+        "name": "Fire",
+        "id": 5759,
+        "paramId": 7668
+      },
+      {
+        "name": "Wave",
+        "id": 5760,
+        "paramId": 7669
+      },
+      {
+        "name": "Rocket",
+        "id": 5761,
+        "paramId": 7670
+      },
+      {
+        "name": "Superman Symbol",
+        "id": 5762,
+        "paramId": 7671
+      },
+      {
+        "name": "Puzzle Piece",
+        "id": 5763,
+        "paramId": 7672
+      },
+      {
+        "name": "Witch Hat",
+        "id": 5764,
+        "paramId": 7673
+      },
+      {
+        "name": "Bell",
+        "id": 5765,
+        "paramId": 7674
+      },
+      {
+        "name": "Ghost",
+        "id": 5766,
+        "paramId": 7675
+      },
+      {
+        "name": "Christmas Stocking",
+        "id": 5767,
+        "paramId": 7676
+      },
+      {
+        "name": "Peace Dove and Heart",
+        "id": 5768,
+        "paramId": 7677
+      },
+      {
+        "name": "Artistic Horse",
+        "id": 5769,
+        "paramId": 7678
+      },
+      {
+        "name": "T-Shirt",
+        "id": 6025,
+        "paramId": 7934
+      },
+      {
+        "name": "Half Face",
+        "id": 5770,
+        "paramId": 7679
+      },
+      {
+        "name": "Light Bulb",
+        "id": 6026,
+        "paramId": 7935
+      },
+      {
+        "name": "Swan A",
+        "id": 5771,
+        "paramId": 7680
+      },
+      {
+        "name": "Tea Cup",
+        "id": 6027,
+        "paramId": 7936
+      },
+      {
+        "name": "Horse Head",
+        "id": 5772,
+        "paramId": 7681
+      },
+      {
+        "name": "wine glass",
+        "id": 6028,
+        "paramId": 7937
+      },
+      {
+        "name": "Sea Turtle",
+        "id": 5773,
+        "paramId": 7682
+      },
+      {
+        "name": "Santa Hat",
+        "id": 6029,
+        "paramId": 7938
+      },
+      {
+        "name": "Carp",
+        "id": 5774,
+        "paramId": 7683
+      },
+      {
+        "name": "Lovely Kitten",
+        "id": 6030,
+        "paramId": 7939
+      },
+      {
+        "name": "Rabbit",
+        "id": 5775,
+        "paramId": 7684
+      },
+      {
+        "name": "Dinosaur A",
+        "id": 5776,
+        "paramId": 7685
+      },
+      {
+        "name": "Whale",
+        "id": 5777,
+        "paramId": 7686
+      },
+      {
+        "name": "Butterfly",
+        "id": 5778,
+        "paramId": 7687
+      },
+      {
+        "name": "Cactus",
+        "id": 5779,
+        "paramId": 7688
+      },
+      {
+        "name": "Apple",
+        "id": 5780,
+        "paramId": 7689
+      },
+      {
+        "name": "Pineapple",
+        "id": 5781,
+        "paramId": 7690
+      },
+      {
+        "name": "Palm Tree",
+        "id": 5782,
+        "paramId": 7691
+      },
+      {
+        "name": "Desert B",
+        "id": 10066,
+        "paramId": 16934
+      },
+      {
+        "name": "Sand Grains",
+        "id": 10067,
+        "paramId": 16935
+      },
+      {
+        "name": "Sunny-A",
+        "id": 378,
+        "paramId": 396
+      },
+      {
+        "name": "Sunny-B",
+        "id": 378,
+        "paramId": 430
+      },
+      {
+        "name": "Tundra",
+        "id": 637,
+        "paramId": 684
+      },
+      {
+        "name": "Frozen River",
+        "id": 638,
+        "paramId": 685
+      },
+      {
+        "name": "Mountains",
+        "id": 639,
+        "paramId": 686
+      },
+      {
+        "name": "Sunrise",
+        "id": 128,
+        "paramId": 110
+      },
+      {
+        "name": "Sunset",
+        "id": 129,
+        "paramId": 111
+      },
+      {
+        "name": "Desert Island",
+        "id": 642,
+        "paramId": 689
+      },
+      {
+        "name": "Rustling leaves",
+        "id": 131,
+        "paramId": 113
+      },
+      {
+        "name": "Spire",
+        "id": 643,
+        "paramId": 690
+      },
+      {
+        "name": "Castle",
+        "id": 644,
+        "paramId": 691
+      },
+      {
+        "name": "Farm",
+        "id": 645,
+        "paramId": 692
+      },
+      {
+        "name": "Lake",
+        "id": 646,
+        "paramId": 693
+      },
+      {
+        "name": "Aurora-B",
+        "id": 135,
+        "paramId": 1771
+      },
+      {
+        "name": "Swamp",
+        "id": 647,
+        "paramId": 694
+      },
+      {
+        "name": "Cliffs",
+        "id": 648,
+        "paramId": 695
+      },
+      {
+        "name": "Snow flake-A",
+        "id": 139,
+        "paramId": 121
+      },
+      {
+        "name": "Spring",
+        "id": 140,
+        "paramId": 122
+      },
+      {
+        "name": "Sky",
+        "id": 15244,
+        "paramId": 24061
+      },
+      {
+        "name": "Summer",
+        "id": 141,
+        "paramId": 123
+      },
+      {
+        "name": "Sailboat",
+        "id": 15245,
+        "paramId": 24062
+      },
+      {
+        "name": "City-State",
+        "id": 655,
+        "paramId": 702
+      },
+      {
+        "name": "Rainbow-A",
+        "id": 144,
+        "paramId": 126
+      },
+      {
+        "name": "Rainbow-B",
+        "id": 144,
+        "paramId": 11221
+      },
+      {
+        "name": "Ruins",
+        "id": 656,
+        "paramId": 703
+      },
+      {
+        "name": "Garden",
+        "id": 657,
+        "paramId": 704
+      },
+      {
+        "name": "Mountains",
+        "id": 658,
+        "paramId": 705
+      },
+      {
+        "name": "Arena",
+        "id": 659,
+        "paramId": 706
+      },
+      {
+        "name": "Deep sea",
+        "id": 148,
+        "paramId": 130
+      },
+      {
+        "name": "Sea bottom",
+        "id": 660,
+        "paramId": 707
+      },
+      {
+        "name": "Watermelon",
+        "id": 14500,
+        "paramId": 23311
+      },
+      {
+        "name": "Taiga",
+        "id": 3499,
+        "paramId": 3658
+      },
+      {
+        "name": "Gobi Desert",
+        "id": 220,
+        "paramId": 200
+      },
+      {
+        "name": "Moonlight-A",
+        "id": 221,
+        "paramId": 201
+      },
+      {
+        "name": "Moonlight-B",
+        "id": 221,
+        "paramId": 232
+      },
+      {
+        "name": "Halloween-A",
+        "id": 151,
+        "paramId": 133
+      },
+      {
+        "name": "Candlelight",
+        "id": 153,
+        "paramId": 135
+      },
+      {
+        "name": "Birthday",
+        "id": 154,
+        "paramId": 136
+      },
+      {
+        "name": "Party-A",
+        "id": 159,
+        "paramId": 141
+      },
+      {
+        "name": "Dance Party-A",
+        "id": 160,
+        "paramId": 142
+      },
+      {
+        "name": "Mother's Day",
+        "id": 163,
+        "paramId": 145
+      },
+      {
+        "name": "Father's Day",
+        "id": 164,
+        "paramId": 146
+      },
+      {
+        "name": "Easter",
+        "id": 10672,
+        "paramId": 17877
+      },
+      {
+        "name": "Thanksgiving",
+        "id": 15332,
+        "paramId": 24160
+      },
+      {
+        "name": "Awaken A",
+        "id": 18007,
+        "paramId": 28169
+      },
+      {
+        "name": "Awaken B",
+        "id": 18008,
+        "paramId": 28170
+      },
+      {
+        "name": "Awaken C",
+        "id": 18009,
+        "paramId": 28171
+      },
+      {
+        "name": "Motorcycle",
+        "id": 649,
+        "paramId": 696
+      },
+      {
+        "name": "Car",
+        "id": 650,
+        "paramId": 697
+      },
+      {
+        "name": "Police Car",
+        "id": 651,
+        "paramId": 698
+      },
+      {
+        "name": "Speedboat",
+        "id": 652,
+        "paramId": 699
+      },
+      {
+        "name": "Helicopter",
+        "id": 653,
+        "paramId": 700
+      },
+      {
+        "name": "Tank",
+        "id": 654,
+        "paramId": 701
+      },
+      {
+        "name": "Sweet",
+        "id": 165,
+        "paramId": 147
+      },
+      {
+        "name": "Romantic",
+        "id": 166,
+        "paramId": 148
+      },
+      {
+        "name": "Dating",
+        "id": 167,
+        "paramId": 149
+      },
+      {
+        "name": "Movie",
+        "id": 168,
+        "paramId": 150
+      },
+      {
+        "name": "Game-B",
+        "id": 171,
+        "paramId": 392
+      },
+      {
+        "name": "Crossing",
+        "id": 172,
+        "paramId": 154
+      },
+      {
+        "name": "Night-A",
+        "id": 173,
+        "paramId": 155
+      },
+      {
+        "name": "Sleep-A",
+        "id": 174,
+        "paramId": 156
+      },
+      {
+        "name": "Sleep-C",
+        "id": 174,
+        "paramId": 1776
+      },
+      {
+        "name": "Morning",
+        "id": 175,
+        "paramId": 157
+      },
+      {
+        "name": "Afternoon",
+        "id": 176,
+        "paramId": 158
+      },
+      {
+        "name": "Study",
+        "id": 177,
+        "paramId": 159
+      },
+      {
+        "name": "Business",
+        "id": 178,
+        "paramId": 160
+      },
+      {
+        "name": "Reading",
+        "id": 179,
+        "paramId": 161
+      },
+      {
+        "name": "Dreamlike-A",
+        "id": 7610,
+        "paramId": 11012
+      },
+      {
+        "name": "Dreamlike-B",
+        "id": 7610,
+        "paramId": 11835
+      },
+      {
+        "name": "Undersea King",
+        "id": 8400,
+        "paramId": 13404
+      },
+      {
+        "name": "Deep Sea B",
+        "id": 8402,
+        "paramId": 13406
+      },
+      {
+        "name": "Work",
+        "id": 225,
+        "paramId": 205
+      },
+      {
+        "name": "Meditation-A",
+        "id": 227,
+        "paramId": 207
+      },
+      {
+        "name": "Meditation-C",
+        "id": 227,
+        "paramId": 715
+      },
+      {
+        "name": "Care-B",
+        "id": 228,
+        "paramId": 240
+      },
+      {
+        "name": "Twinkle-A",
+        "id": 180,
+        "paramId": 162
+      },
+      {
+        "name": "Dreamland-E",
+        "id": 181,
+        "paramId": 710
+      },
+      {
+        "name": "Dreamland-F",
+        "id": 181,
+        "paramId": 712
+      },
+      {
+        "name": "Breathe",
+        "id": 182,
+        "paramId": 164
+      },
+      {
+        "name": "Energetic-A",
+        "id": 183,
+        "paramId": 165
+      },
+      {
+        "name": "Quiet-A",
+        "id": 189,
+        "paramId": 171
+      },
+      {
+        "name": "Longing",
+        "id": 190,
+        "paramId": 172
+      },
+      {
+        "name": "Stacking",
+        "id": 192,
+        "paramId": 174
+      }
+    ]
+  },
+  "Table Lamp": {
+    "sku": "H6022",
+    "mac": "0E:88:CD:2A:03:86:42:0F",
+    "scenes": [
+      {
+        "name": "Sunrise",
+        "id": 11273,
+        "paramId": 18593
+      },
+      {
+        "name": "Sunset",
+        "id": 11274,
+        "paramId": 18594
+      },
+      {
+        "name": "Rainbow",
+        "id": 11275,
+        "paramId": 18595
+      },
+      {
+        "name": "Sunset Glow",
+        "id": 11276,
+        "paramId": 18596
+      },
+      {
+        "name": "Aurora",
+        "id": 11277,
+        "paramId": 18597
+      },
+      {
+        "name": "Forest",
+        "id": 11278,
+        "paramId": 18598
+      },
+      {
+        "name": "Ocean",
+        "id": 11279,
+        "paramId": 18599
+      },
+      {
+        "name": "Wave",
+        "id": 11280,
+        "paramId": 18600
+      },
+      {
+        "name": "Snow flake",
+        "id": 11281,
+        "paramId": 18601
+      },
+      {
+        "name": "Spring\u00a0Wind",
+        "id": 11282,
+        "paramId": 18602
+      },
+      {
+        "name": "Sky",
+        "id": 11283,
+        "paramId": 18603
+      },
+      {
+        "name": "Firefly",
+        "id": 11284,
+        "paramId": 18604
+      },
+      {
+        "name": "Fire",
+        "id": 11285,
+        "paramId": 18605
+      },
+      {
+        "name": "Falling Petals",
+        "id": 11286,
+        "paramId": 18606
+      },
+      {
+        "name": "Cherry blossoms",
+        "id": 11287,
+        "paramId": 18607
+      },
+      {
+        "name": "Raining",
+        "id": 11288,
+        "paramId": 18608
+      },
+      {
+        "name": "Desert",
+        "id": 11289,
+        "paramId": 18609
+      },
+      {
+        "name": "Karst Cave",
+        "id": 11290,
+        "paramId": 18610
+      },
+      {
+        "name": "Mountain Forest",
+        "id": 11291,
+        "paramId": 18611
+      },
+      {
+        "name": "Feather",
+        "id": 11292,
+        "paramId": 18612
+      },
+      {
+        "name": "Spring",
+        "id": 11293,
+        "paramId": 18613
+      },
+      {
+        "name": "Summer",
+        "id": 11294,
+        "paramId": 18614
+      },
+      {
+        "name": "Fall",
+        "id": 11295,
+        "paramId": 18615
+      },
+      {
+        "name": "Winter",
+        "id": 11296,
+        "paramId": 18616
+      },
+      {
+        "name": "Lake",
+        "id": 11297,
+        "paramId": 18617
+      },
+      {
+        "name": "White Light",
+        "id": 11298,
+        "paramId": 18618
+      },
+      {
+        "name": "Reading",
+        "id": 11299,
+        "paramId": 18619
+      },
+      {
+        "name": "Night Light",
+        "id": 11300,
+        "paramId": 18620
+      },
+      {
+        "name": "Morning",
+        "id": 11301,
+        "paramId": 18621
+      },
+      {
+        "name": "Afternoon",
+        "id": 11302,
+        "paramId": 18622
+      },
+      {
+        "name": "Leisure",
+        "id": 11303,
+        "paramId": 18623
+      },
+      {
+        "name": "Refreshing",
+        "id": 11304,
+        "paramId": 18624
+      },
+      {
+        "name": "Fish tank",
+        "id": 11305,
+        "paramId": 18625
+      },
+      {
+        "name": "Goldfish",
+        "id": 11306,
+        "paramId": 18626
+      },
+      {
+        "name": "Train",
+        "id": 11307,
+        "paramId": 18627
+      },
+      {
+        "name": "Kitchen Aromas",
+        "id": 11308,
+        "paramId": 18628
+      },
+      {
+        "name": "Breathe",
+        "id": 11309,
+        "paramId": 18629
+      },
+      {
+        "name": "Gradient",
+        "id": 11310,
+        "paramId": 18630
+      },
+      {
+        "name": "Graffiti",
+        "id": 11311,
+        "paramId": 18631
+      },
+      {
+        "name": "Dreamlike",
+        "id": 11312,
+        "paramId": 18632
+      },
+      {
+        "name": "Joyful",
+        "id": 11313,
+        "paramId": 18633
+      },
+      {
+        "name": "Smudge",
+        "id": 11314,
+        "paramId": 18634
+      },
+      {
+        "name": "Rubik's Cube",
+        "id": 11315,
+        "paramId": 18635
+      },
+      {
+        "name": "Interlaced",
+        "id": 11316,
+        "paramId": 18636
+      },
+      {
+        "name": "Swing",
+        "id": 11317,
+        "paramId": 18637
+      },
+      {
+        "name": "Christmas",
+        "id": 11318,
+        "paramId": 18638
+      },
+      {
+        "name": "Halloween",
+        "id": 11319,
+        "paramId": 18639
+      },
+      {
+        "name": "Christmas Bell",
+        "id": 11320,
+        "paramId": 18640
+      },
+      {
+        "name": "Candy Cane",
+        "id": 11321,
+        "paramId": 18641
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 11322,
+        "paramId": 18642
+      },
+      {
+        "name": "Christmas Baubles",
+        "id": 26298,
+        "paramId": 36972
+      },
+      {
+        "name": "Heartbeat",
+        "id": 11323,
+        "paramId": 18643
+      },
+      {
+        "name": "Christmas Eve",
+        "id": 26299,
+        "paramId": 36973
+      },
+      {
+        "name": "Saint Patrick's Day",
+        "id": 11324,
+        "paramId": 18644
+      },
+      {
+        "name": "Candy Cane B",
+        "id": 26300,
+        "paramId": 36974
+      },
+      {
+        "name": "Easter Egg",
+        "id": 11325,
+        "paramId": 18645
+      },
+      {
+        "name": "Santa Hat",
+        "id": 26301,
+        "paramId": 36975
+      },
+      {
+        "name": "Ghost",
+        "id": 11326,
+        "paramId": 18646
+      },
+      {
+        "name": "Christmas Stripe",
+        "id": 26302,
+        "paramId": 36976
+      },
+      {
+        "name": "Christmas Stripe B",
+        "id": 26303,
+        "paramId": 36977
+      },
+      {
+        "name": "Christmas Stripe C",
+        "id": 26304,
+        "paramId": 36978
+      },
+      {
+        "name": "Christmas Stripe D",
+        "id": 26305,
+        "paramId": 36979
+      },
+      {
+        "name": "Christmas Gift",
+        "id": 26306,
+        "paramId": 36980
+      },
+      {
+        "name": "Christmas Wreath",
+        "id": 26307,
+        "paramId": 36981
+      },
+      {
+        "name": "Snow House",
+        "id": 26308,
+        "paramId": 36982
+      },
+      {
+        "name": "Christmas Tree",
+        "id": 26309,
+        "paramId": 36983
+      },
+      {
+        "name": "Gingerbread Man",
+        "id": 26310,
+        "paramId": 36984
+      },
+      {
+        "name": "Christmas Stocking",
+        "id": 26311,
+        "paramId": 36985
+      },
+      {
+        "name": "Santa Claus",
+        "id": 26312,
+        "paramId": 36986
+      },
+      {
+        "name": "Grim Graveyard",
+        "id": 26313,
+        "paramId": 36987
+      },
+      {
+        "name": "Poison",
+        "id": 26314,
+        "paramId": 36988
+      },
+      {
+        "name": "Lightning Bats",
+        "id": 26315,
+        "paramId": 36989
+      },
+      {
+        "name": "Halloween Witches",
+        "id": 26316,
+        "paramId": 36990
+      },
+      {
+        "name": "Thanksgiving",
+        "id": 26317,
+        "paramId": 36991
+      },
+      {
+        "name": "Healing",
+        "id": 11327,
+        "paramId": 18647
+      },
+      {
+        "name": "Starry Sky",
+        "id": 11328,
+        "paramId": 18648
+      },
+      {
+        "name": "Accompany",
+        "id": 11329,
+        "paramId": 18649
+      },
+      {
+        "name": "Dreamland",
+        "id": 11330,
+        "paramId": 18650
+      },
+      {
+        "name": "Night",
+        "id": 11331,
+        "paramId": 18651
+      },
+      {
+        "name": "Mysterious",
+        "id": 11332,
+        "paramId": 18652
+      },
+      {
+        "name": "Soothing",
+        "id": 11333,
+        "paramId": 18653
+      },
+      {
+        "name": "Earth",
+        "id": 11334,
+        "paramId": 18654
+      },
+      {
+        "name": "Mars",
+        "id": 11335,
+        "paramId": 18655
+      },
+      {
+        "name": "Venus",
+        "id": 11336,
+        "paramId": 18656
+      },
+      {
+        "name": "Uranus",
+        "id": 11337,
+        "paramId": 18657
+      },
+      {
+        "name": "Jupiter",
+        "id": 11338,
+        "paramId": 18658
+      },
+      {
+        "name": "Milky\u00a0Way",
+        "id": 11339,
+        "paramId": 18659
+      },
+      {
+        "name": "Flash",
+        "id": 22185,
+        "paramId": 32673
+      },
+      {
+        "name": "Gary",
+        "id": 22186,
+        "paramId": 32674
+      },
+      {
+        "name": "Judy",
+        "id": 22187,
+        "paramId": 32675
+      },
+      {
+        "name": "Nick",
+        "id": 22188,
+        "paramId": 32676
+      },
+      {
+        "name": "ZDP Duo",
+        "id": 22189,
+        "paramId": 32677
+      },
+      {
+        "name": "ZDP Trio",
+        "id": 22190,
+        "paramId": 32678
+      }
+    ]
+  },
+  "Covered LED Strip": {
+    "sku": "H61B5",
+    "mac": "29:D1:D6:50:84:C6:25:33",
+    "scenes": [
+      {
+        "name": "Desert B",
+        "id": 10066,
+        "paramId": 16934
+      },
+      {
+        "name": "Sand Grains",
+        "id": 10067,
+        "paramId": 16935
+      },
+      {
+        "name": "Tundra",
+        "id": 637,
+        "paramId": 684
+      },
+      {
+        "name": "Frozen River",
+        "id": 638,
+        "paramId": 685
+      },
+      {
+        "name": "Mountains",
+        "id": 639,
+        "paramId": 686
+      },
+      {
+        "name": "Sunrise",
+        "id": 128,
+        "paramId": 110
+      },
+      {
+        "name": "Sunset",
+        "id": 129,
+        "paramId": 111
+      },
+      {
+        "name": "Desert Island",
+        "id": 642,
+        "paramId": 689
+      },
+      {
+        "name": "Spire",
+        "id": 643,
+        "paramId": 690
+      },
+      {
+        "name": "Castle",
+        "id": 644,
+        "paramId": 691
+      },
+      {
+        "name": "Farm",
+        "id": 645,
+        "paramId": 692
+      },
+      {
+        "name": "Lake",
+        "id": 646,
+        "paramId": 693
+      },
+      {
+        "name": "Aurora-B",
+        "id": 135,
+        "paramId": 1771
+      },
+      {
+        "name": "Swamp",
+        "id": 647,
+        "paramId": 694
+      },
+      {
+        "name": "Cliffs",
+        "id": 648,
+        "paramId": 695
+      },
+      {
+        "name": "Snow flake-A",
+        "id": 139,
+        "paramId": 121
+      },
+      {
+        "name": "Sky",
+        "id": 15244,
+        "paramId": 24061
+      },
+      {
+        "name": "Sailboat",
+        "id": 15245,
+        "paramId": 24062
+      },
+      {
+        "name": "City-State",
+        "id": 655,
+        "paramId": 702
+      },
+      {
+        "name": "Rainbow-A",
+        "id": 144,
+        "paramId": 126
+      },
+      {
+        "name": "Rainbow-B",
+        "id": 144,
+        "paramId": 11221
+      },
+      {
+        "name": "Ruins",
+        "id": 656,
+        "paramId": 703
+      },
+      {
+        "name": "Garden",
+        "id": 657,
+        "paramId": 704
+      },
+      {
+        "name": "Mountains",
+        "id": 658,
+        "paramId": 705
+      },
+      {
+        "name": "Arena",
+        "id": 659,
+        "paramId": 706
+      },
+      {
+        "name": "Deep sea",
+        "id": 148,
+        "paramId": 130
+      },
+      {
+        "name": "Sea bottom",
+        "id": 660,
+        "paramId": 707
+      },
+      {
+        "name": "Taiga",
+        "id": 3499,
+        "paramId": 3658
+      },
+      {
+        "name": "Halloween-A",
+        "id": 151,
+        "paramId": 133
+      },
+      {
+        "name": "Halloween-B",
+        "id": 151,
+        "paramId": 2880
+      },
+      {
+        "name": "Candlelight",
+        "id": 153,
+        "paramId": 135
+      },
+      {
+        "name": "Birthday",
+        "id": 154,
+        "paramId": 136
+      },
+      {
+        "name": "Easter",
+        "id": 10672,
+        "paramId": 17877
+      },
+      {
+        "name": "Thanksgiving",
+        "id": 15332,
+        "paramId": 24160
+      },
+      {
+        "name": "Awaken A",
+        "id": 18007,
+        "paramId": 28169
+      },
+      {
+        "name": "Awaken B",
+        "id": 18008,
+        "paramId": 28170
+      },
+      {
+        "name": "Awaken C",
+        "id": 18009,
+        "paramId": 28171
+      },
+      {
+        "name": "Motorcycle",
+        "id": 649,
+        "paramId": 696
+      },
+      {
+        "name": "Car",
+        "id": 650,
+        "paramId": 697
+      },
+      {
+        "name": "Police Car",
+        "id": 651,
+        "paramId": 698
+      },
+      {
+        "name": "Speedboat",
+        "id": 652,
+        "paramId": 699
+      },
+      {
+        "name": "Helicopter",
+        "id": 653,
+        "paramId": 700
+      },
+      {
+        "name": "Tank",
+        "id": 654,
+        "paramId": 701
+      },
+      {
+        "name": "Sweet",
+        "id": 165,
+        "paramId": 147
+      },
+      {
+        "name": "Romantic",
+        "id": 166,
+        "paramId": 148
+      },
+      {
+        "name": "Dating",
+        "id": 167,
+        "paramId": 149
+      },
+      {
+        "name": "Movie",
+        "id": 168,
+        "paramId": 150
+      },
+      {
+        "name": "Crossing",
+        "id": 172,
+        "paramId": 154
+      },
+      {
+        "name": "Sleep-A",
+        "id": 174,
+        "paramId": 156
+      },
+      {
+        "name": "Sleep-B",
+        "id": 174,
+        "paramId": 708
+      },
+      {
+        "name": "Dreamlike-A",
+        "id": 7610,
+        "paramId": 11012
+      },
+      {
+        "name": "Dreamlike-B",
+        "id": 7610,
+        "paramId": 11835
+      },
+      {
+        "name": "Undersea King",
+        "id": 8400,
+        "paramId": 13404
+      },
+      {
+        "name": "Deep Sea B",
+        "id": 8402,
+        "paramId": 13406
+      },
+      {
+        "name": "Meditation-A",
+        "id": 227,
+        "paramId": 207
+      },
+      {
+        "name": "Twinkle-A",
+        "id": 180,
+        "paramId": 162
+      },
+      {
+        "name": "Dreamland-F",
+        "id": 181,
+        "paramId": 712
+      },
+      {
+        "name": "Breathe",
+        "id": 182,
+        "paramId": 164
+      },
+      {
+        "name": "Energetic-A",
+        "id": 183,
+        "paramId": 165
+      },
+      {
+        "name": "Quiet-A",
+        "id": 189,
+        "paramId": 171
+      },
+      {
+        "name": "Longing",
+        "id": 190,
+        "paramId": 172
+      },
+      {
+        "name": "Stacking",
+        "id": 192,
+        "paramId": 174
+      }
+    ]
+  },
+  "Glide Hexa": {
+    "sku": "H6061",
+    "mac": "A2:C2:D2:2E:81:C6:66:18",
+    "scenes": [
+      {
+        "name": "Aurora",
+        "id": 2248,
+        "paramId": 2356
+      },
+      {
+        "name": "Ocean",
+        "id": 2244,
+        "paramId": 2352
+      },
+      {
+        "name": "Forest",
+        "id": 2245,
+        "paramId": 2353
+      },
+      {
+        "name": "Sunset Glow",
+        "id": 2246,
+        "paramId": 2354
+      },
+      {
+        "name": "Starry Sky",
+        "id": 4358,
+        "paramId": 4905
+      },
+      {
+        "name": "Rainbow",
+        "id": 2247,
+        "paramId": 2355
+      },
+      {
+        "name": "Raining",
+        "id": 4359,
+        "paramId": 4906
+      },
+      {
+        "name": "Aurora",
+        "id": 2248,
+        "paramId": 2356
+      },
+      {
+        "name": "Star",
+        "id": 2249,
+        "paramId": 2357
+      },
+      {
+        "name": "Fire",
+        "id": 2250,
+        "paramId": 2358
+      },
+      {
+        "name": "Flower Field",
+        "id": 2251,
+        "paramId": 2359
+      },
+      {
+        "name": "Ripple",
+        "id": 2252,
+        "paramId": 2360
+      },
+      {
+        "name": "White Light",
+        "id": 9159,
+        "paramId": 15246
+      },
+      {
+        "name": "Crawl",
+        "id": 4360,
+        "paramId": 4907
+      },
+      {
+        "name": "Colorful",
+        "id": 4361,
+        "paramId": 4908
+      },
+      {
+        "name": "Movie",
+        "id": 2253,
+        "paramId": 2361
+      },
+      {
+        "name": "Romantic",
+        "id": 2256,
+        "paramId": 2364
+      },
+      {
+        "name": "Dreamland",
+        "id": 2257,
+        "paramId": 2365
+      },
+      {
+        "name": "Dance Party",
+        "id": 2258,
+        "paramId": 2366
+      },
+      {
+        "name": "Disco",
+        "id": 2259,
+        "paramId": 2367
+      },
+      {
+        "name": "Siren",
+        "id": 2260,
+        "paramId": 2368
+      },
+      {
+        "name": "Leisure",
+        "id": 2717,
+        "paramId": 2825
+      },
+      {
+        "name": "Awaken A",
+        "id": 15325,
+        "paramId": 24153
+      },
+      {
+        "name": "Night Light",
+        "id": 2718,
+        "paramId": 2826
+      },
+      {
+        "name": "Awaken B",
+        "id": 15326,
+        "paramId": 24154
+      },
+      {
+        "name": "Awaken C",
+        "id": 15327,
+        "paramId": 24155
+      },
+      {
+        "name": "Breathe",
+        "id": 2261,
+        "paramId": 2369
+      },
+      {
+        "name": "Energetic",
+        "id": 2262,
+        "paramId": 2370
+      },
+      {
+        "name": "Soothing",
+        "id": 2263,
+        "paramId": 2371
+      },
+      {
+        "name": "Dreamlike",
+        "id": 2264,
+        "paramId": 2372
+      },
+      {
+        "name": "Meditation",
+        "id": 2265,
+        "paramId": 2373
+      },
+      {
+        "name": "Optimistic",
+        "id": 2266,
+        "paramId": 2374
+      },
+      {
+        "name": "Refreshing",
+        "id": 2267,
+        "paramId": 2375
+      },
+      {
+        "name": "Sweet",
+        "id": 2268,
+        "paramId": 2376
+      },
+      {
+        "name": "Poker",
+        "id": 2269,
+        "paramId": 2377
+      },
+      {
+        "name": "Stacking",
+        "id": 2270,
+        "paramId": 2378
+      },
+      {
+        "name": "Intersection",
+        "id": 2271,
+        "paramId": 2379
+      },
+      {
+        "name": "Kaleidoscope",
+        "id": 2272,
+        "paramId": 2380
+      },
+      {
+        "name": "Flow",
+        "id": 2273,
+        "paramId": 2381
+      },
+      {
+        "name": "Christmas",
+        "id": 4362,
+        "paramId": 4909
+      },
+      {
+        "name": "Mother's Day",
+        "id": 4363,
+        "paramId": 4910
+      },
+      {
+        "name": "Father's Day",
+        "id": 4364,
+        "paramId": 4911
+      },
+      {
+        "name": "Easter",
+        "id": 4365,
+        "paramId": 4912
+      },
+      {
+        "name": "Valentine's Day",
+        "id": 4366,
+        "paramId": 4913
+      },
+      {
+        "name": "Birthday",
+        "id": 4367,
+        "paramId": 4914
+      }
+    ]
+  }
+}

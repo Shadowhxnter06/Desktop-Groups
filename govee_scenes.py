@@ -1,6 +1,5 @@
 import json
-from govee_lights import get_govee_device_scenes, get_govee_lights
-
+from govee_lights import get_govee_device_scenes, get_govee_lights, get_govee_device_diy_scenes
 
 def get_govee_scenes():
     
@@ -14,7 +13,9 @@ def get_govee_scenes():
         print(f"Fetching scenes for {name}...")
 
         response = get_govee_device_scenes(device["d_sku"], device["d_mac_addr"])
+        diy_response = get_govee_device_diy_scenes(device["d_sku"], device["d_mac_addr"])
         capabilities = response.get("payload", {}).get("capabilities", [])
+        diy_capabilities = diy_response.get("payload", {}).get("capabilities", [])
 
         scenes = []
         for cap in capabilities:
@@ -25,6 +26,15 @@ def get_govee_scenes():
                     "id": option["value"]["id"],
                     "paramId": option["value"]["paramId"]
                 })
+        for cap in diy_capabilities:
+            options = cap.get("parameters", {}).get("options", [])
+            for option in options:
+                scenes.append({
+                    "name": option["name"],
+                    "id": option["value"]
+                })
+        
+        
 
         all_scenes[name] = {
             "sku": device["d_sku"],
@@ -55,11 +65,13 @@ def search_govee_scenes(device_name, scene_name):
     for scene in s["scenes"]:
         
         if scene["name"] == scene_name:
-            print(f"Scene ID: {scene["id"]} Parameter ID: {scene["paramId"]}")
-            return scene["id"], scene["paramId"]
+            if "paramId" in scene:
+                print(f"Scene ID: {scene['id']} Parameter ID: {scene['paramId']}")
+                return scene["id"], scene["paramId"]
+            print(f"Scene ID: {scene['id']}")
+            return scene["id"]
         
     print(f"Scene '{scene_name}' not found for device '{device_name}'")
     return None
 
-
-search_govee_scenes("Table Lamp", "Morning")
+search_govee_scenes("Table Lamp", "Wave")

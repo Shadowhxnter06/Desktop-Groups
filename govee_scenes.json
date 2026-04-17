@@ -552,6 +552,106 @@
         "name": "Cyberpunk",
         "id": 26293,
         "paramId": 36967
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "Gojo",
+        "id": 11585433
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "Red LS",
+        "id": 11548337
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982899
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Dream (CL)",
+        "id": 7427440
+      },
+      {
+        "name": "Purple/red",
+        "id": 6846823
+      },
+      {
+        "name": "Sunset",
+        "id": 6557417
+      },
+      {
+        "name": "Calming purple (cl)",
+        "id": 6007772
+      },
+      {
+        "name": "Orange stack",
+        "id": 5714155
+      },
+      {
+        "name": "Abstract (CL)",
+        "id": 5474262
+      },
+      {
+        "name": "Music (Fire) (CL)",
+        "id": 5364049
+      },
+      {
+        "name": "Music (Fire) (LS)",
+        "id": 5364010
+      },
+      {
+        "name": "purple (cl)",
+        "id": 5068473
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "White (CL)",
+        "id": 4690751
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Corner Lamp music",
+        "id": 4690347
+      },
+      {
+        "name": "Light strip music",
+        "id": 4690051
+      },
+      {
+        "name": "purple/cyan (CL)",
+        "id": 4495958
+      },
+      {
+        "name": "Christmas (CL)",
+        "id": 4380794
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
@@ -908,6 +1008,130 @@
         "name": "Split",
         "id": 6098,
         "paramId": 8007
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "New effect",
+        "id": 20929396
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "Gojo",
+        "id": 11585433
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "Red LS",
+        "id": 11548337
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982888
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Cmas",
+        "id": 8788756
+      },
+      {
+        "name": "Space",
+        "id": 7430634
+      },
+      {
+        "name": "Dream (LB)",
+        "id": 7427429
+      },
+      {
+        "name": "Purple/red",
+        "id": 6846815
+      },
+      {
+        "name": "Sunset",
+        "id": 6807146
+      },
+      {
+        "name": "Calming purple (cl)",
+        "id": 6007772
+      },
+      {
+        "name": "Orange stack",
+        "id": 5714155
+      },
+      {
+        "name": "Abstract (LED)",
+        "id": 5474268
+      },
+      {
+        "name": "Abstract (LS)",
+        "id": 5474255
+      },
+      {
+        "name": "Rainbow (LS)",
+        "id": 5366854
+      },
+      {
+        "name": "Music (Fire) (CL)",
+        "id": 5364049
+      },
+      {
+        "name": "Music (Fire) (LS)",
+        "id": 5364010
+      },
+      {
+        "name": "purple",
+        "id": 5068434
+      },
+      {
+        "name": "Alien (LED)",
+        "id": 4690913
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "Alien (LS)",
+        "id": 4690853
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "White (CL)",
+        "id": 4690751
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Corner Lamp music",
+        "id": 4690347
+      },
+      {
+        "name": "Light strip music",
+        "id": 4690051
+      },
+      {
+        "name": "Purple/White",
+        "id": 3789147
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
@@ -1139,6 +1363,58 @@
         "name": "Birthday",
         "id": 4367,
         "paramId": 4914
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "Warm panels",
+        "id": 21171574
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982870
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Abstract",
+        "id": 9827576
+      },
+      {
+        "name": "Space",
+        "id": 7430614
+      },
+      {
+        "name": "Dream",
+        "id": 7426484
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
@@ -1375,13 +1651,174 @@
         "name": "Card Playing",
         "id": 3095,
         "paramId": 3245
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "Gojo",
+        "id": 11585423
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "Red",
+        "id": 11548282
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
   "TV Backlight": {
     "sku": "H6099",
     "mac": "B7:7E:D2:39:32:35:28:5A",
-    "scenes": []
+    "scenes": [
+      {
+        "name": "Tv_Ocean",
+        "id": 22591755
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "Dream",
+        "id": 22510057
+      },
+      {
+        "name": "New effect",
+        "id": 20929396
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "Gojo",
+        "id": 11585433
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982888
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Cmas",
+        "id": 8788756
+      },
+      {
+        "name": "Space",
+        "id": 7430634
+      },
+      {
+        "name": "Dream (LB)",
+        "id": 7427429
+      },
+      {
+        "name": "Purple/red",
+        "id": 6846815
+      },
+      {
+        "name": "Sunset",
+        "id": 6807146
+      },
+      {
+        "name": "Calming purple (cl)",
+        "id": 6007772
+      },
+      {
+        "name": "Abstract (LED)",
+        "id": 5474268
+      },
+      {
+        "name": "Abstract (LS)",
+        "id": 5474255
+      },
+      {
+        "name": "Rainbow (LS)",
+        "id": 5366854
+      },
+      {
+        "name": "Music (Fire) (LED)",
+        "id": 5364066
+      },
+      {
+        "name": "purple",
+        "id": 5068434
+      },
+      {
+        "name": "Alien (LED)",
+        "id": 4690913
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "Alien (LS)",
+        "id": 4690853
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "White (LED)",
+        "id": 4690769
+      },
+      {
+        "name": "White (CL)",
+        "id": 4690751
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Music (Techno) (LED)",
+        "id": 4690374
+      },
+      {
+        "name": "Purple/White",
+        "id": 3789147
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
+      }
+    ]
   },
   "Glide Hexa Ultra": {
     "sku": "H606A",
@@ -1761,6 +2198,50 @@
         "name": "Quiet",
         "id": 7266,
         "paramId": 10538
+      },
+      {
+        "name": "Purple",
+        "id": 16202315
+      },
+      {
+        "name": "Fire",
+        "id": 13669249
+      },
+      {
+        "name": "Warm light",
+        "id": 13583109
+      },
+      {
+        "name": "Purple lines",
+        "id": 13583058
+      },
+      {
+        "name": "Red/blue",
+        "id": 13583044
+      },
+      {
+        "name": "White trippy",
+        "id": 11583777
+      },
+      {
+        "name": "Gojo",
+        "id": 11578065
+      },
+      {
+        "name": "Red",
+        "id": 11548257
+      },
+      {
+        "name": "CopyGreen/blue inward",
+        "id": 11177983
+      },
+      {
+        "name": "Purple",
+        "id": 11169905
+      },
+      {
+        "name": "Green/blue inward",
+        "id": 11163032
       }
     ]
   },
@@ -2497,6 +2978,126 @@
         "name": "Rush",
         "id": 254,
         "paramId": 253
+      },
+      {
+        "name": "Tv_Ocean",
+        "id": 22591755
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "Dream",
+        "id": 22510057
+      },
+      {
+        "name": "New effect",
+        "id": 20929396
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "Gojo",
+        "id": 11585433
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982888
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Cmas",
+        "id": 8788756
+      },
+      {
+        "name": "Space",
+        "id": 7430634
+      },
+      {
+        "name": "Dream (LB)",
+        "id": 7427429
+      },
+      {
+        "name": "Purple/red",
+        "id": 6846815
+      },
+      {
+        "name": "Sunset",
+        "id": 6807146
+      },
+      {
+        "name": "Calming purple (cl)",
+        "id": 6007772
+      },
+      {
+        "name": "Abstract (LED)",
+        "id": 5474268
+      },
+      {
+        "name": "Abstract (LS)",
+        "id": 5474255
+      },
+      {
+        "name": "Rainbow (LS)",
+        "id": 5366854
+      },
+      {
+        "name": "Music (Fire) (LED)",
+        "id": 5364066
+      },
+      {
+        "name": "purple",
+        "id": 5068434
+      },
+      {
+        "name": "Alien (LED)",
+        "id": 4690913
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "Alien (LS)",
+        "id": 4690853
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "White (LED)",
+        "id": 4690769
+      },
+      {
+        "name": "White (CL)",
+        "id": 4690751
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Music (Techno) (LED)",
+        "id": 4690374
+      },
+      {
+        "name": "Purple/White",
+        "id": 3789147
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
@@ -3433,6 +4034,126 @@
         "name": "Stacking",
         "id": 192,
         "paramId": 174
+      },
+      {
+        "name": "Tv_Ocean",
+        "id": 22591755
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "Dream",
+        "id": 22510057
+      },
+      {
+        "name": "New effect",
+        "id": 20929396
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "Gojo",
+        "id": 11585433
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982888
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Cmas",
+        "id": 8788756
+      },
+      {
+        "name": "Space",
+        "id": 7430634
+      },
+      {
+        "name": "Dream (LB)",
+        "id": 7427429
+      },
+      {
+        "name": "Purple/red",
+        "id": 6846815
+      },
+      {
+        "name": "Sunset",
+        "id": 6807146
+      },
+      {
+        "name": "Calming purple (cl)",
+        "id": 6007772
+      },
+      {
+        "name": "Abstract (LED)",
+        "id": 5474268
+      },
+      {
+        "name": "Abstract (LS)",
+        "id": 5474255
+      },
+      {
+        "name": "Rainbow (LS)",
+        "id": 5366854
+      },
+      {
+        "name": "Music (Fire) (LED)",
+        "id": 5364066
+      },
+      {
+        "name": "purple",
+        "id": 5068434
+      },
+      {
+        "name": "Alien (LED)",
+        "id": 4690913
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "Alien (LS)",
+        "id": 4690853
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "White (LED)",
+        "id": 4690769
+      },
+      {
+        "name": "White (CL)",
+        "id": 4690751
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Music (Techno) (LED)",
+        "id": 4690374
+      },
+      {
+        "name": "Purple/White",
+        "id": 3789147
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
@@ -3904,6 +4625,62 @@
         "name": "ZDP Trio",
         "id": 22190,
         "paramId": 32678
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "Dream",
+        "id": 22510050
+      },
+      {
+        "name": "Red lamp",
+        "id": 11727323
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Dream (LB)",
+        "id": 7427452
+      },
+      {
+        "name": "Purple/red",
+        "id": 6846824
+      },
+      {
+        "name": "Sunset",
+        "id": 6557408
+      },
+      {
+        "name": "Calming purple (LB)",
+        "id": 6007781
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
@@ -4220,6 +4997,126 @@
         "name": "Stacking",
         "id": 192,
         "paramId": 174
+      },
+      {
+        "name": "Tv_Ocean",
+        "id": 22591755
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "Dream",
+        "id": 22510057
+      },
+      {
+        "name": "New effect",
+        "id": 20929396
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "Gojo",
+        "id": 11585433
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982888
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Cmas",
+        "id": 8788756
+      },
+      {
+        "name": "Space",
+        "id": 7430634
+      },
+      {
+        "name": "Dream (LB)",
+        "id": 7427429
+      },
+      {
+        "name": "Purple/red",
+        "id": 6846815
+      },
+      {
+        "name": "Sunset",
+        "id": 6807146
+      },
+      {
+        "name": "Calming purple (cl)",
+        "id": 6007772
+      },
+      {
+        "name": "Abstract (LED)",
+        "id": 5474268
+      },
+      {
+        "name": "Abstract (LS)",
+        "id": 5474255
+      },
+      {
+        "name": "Rainbow (LS)",
+        "id": 5366854
+      },
+      {
+        "name": "Music (Fire) (LED)",
+        "id": 5364066
+      },
+      {
+        "name": "purple",
+        "id": 5068434
+      },
+      {
+        "name": "Alien (LED)",
+        "id": 4690913
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "Alien (LS)",
+        "id": 4690853
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "White (LED)",
+        "id": 4690769
+      },
+      {
+        "name": "White (CL)",
+        "id": 4690751
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Music (Techno) (LED)",
+        "id": 4690374
+      },
+      {
+        "name": "Purple/White",
+        "id": 3789147
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   },
@@ -4451,6 +5348,58 @@
         "name": "Birthday",
         "id": 4367,
         "paramId": 4914
+      },
+      {
+        "name": "Box_Ocean",
+        "id": 22591204
+      },
+      {
+        "name": "Warm panels",
+        "id": 21171574
+      },
+      {
+        "name": "New effect",
+        "id": 11586771
+      },
+      {
+        "name": "New effect",
+        "id": 11548347
+      },
+      {
+        "name": "CopyIdk",
+        "id": 9982870
+      },
+      {
+        "name": "Idk",
+        "id": 9982866
+      },
+      {
+        "name": "Abstract",
+        "id": 9827576
+      },
+      {
+        "name": "Space",
+        "id": 7430614
+      },
+      {
+        "name": "Dream",
+        "id": 7426484
+      },
+      {
+        "name": "Alien (CL)",
+        "id": 4690869
+      },
+      {
+        "name": "White (LB)",
+        "id": 4690780
+      },
+      {
+        "name": "Blue (LB)",
+        "id": 4690643
+      },
+      {
+        "name": "Purple/Blue(Light Bar)",
+        "id": 3426376
       }
     ]
   }

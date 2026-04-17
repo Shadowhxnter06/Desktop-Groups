@@ -15,7 +15,7 @@
 
  "DSPGAME.exe":{ "name": "Dyson Sphere Program", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Dyson Sphere Program\\DSPGAME.exe" },
 
- "eldenring.exe": { "name": "ELDEN RING", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ELDEN RING\\Game\\eldenring.exe" },
+ "start_protected_game.exe": { "name": "ELDEN RING", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ELDEN RING\\Game\\start_protected_game.exe" },
 
  "Hacknet.exe":{ "name": "Hacknet", "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Hacknet\\Hacknet.exe" },
 

@@ -6,13 +6,14 @@ from pycaw.pycaw import AudioUtilities
 from pycaw.constants import EDataFlow
 import subprocess
 import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Add parent directory to path for imports
 from govee_lights import (
-    get_govee_lights,
     toggle_govee_device_power,
     change_govee_device_brightness,
-    change_govee_device_scene
+    change_govee_device_scene,
+    build_govee_device_map,
+    toggle_govee_dreamview
 )
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Add parent directory to path for imports
 
 # ---------------------------------------------------------------------------
 # FUNCTION DEFINING
@@ -22,7 +23,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 def audio_output_change(a_device):
 
     speakers = "Speakers (Realtek USB2.0 Audio)"
-    headset = "Headset Earphone (G535 Wireless Gaming Headset"
+    headset = "Headset Earphone (G535 Wireless Gaming Headset)"
 
     valid = [speakers, headset]
     if a_device not in valid:
@@ -53,36 +54,6 @@ def wallpaper_change(we_profile):
     else:
         print("Wallpaper changed successfully.")
 
-# Calls the Govee API to get all current devices, then matches them against the nicknames in govee_devices.json.
-def build_govee_device_map():
-#    Returns a dict like:
-#    {
-#        "glide_hexa_ultra": {"sku": "H606A", "mac": "AB:CD:..."},
-#        "table_lamp":       {"sku": "H6022", "mac": "EF:GH:..."},
-#        ...
-#    }
-    
-    # Load nickname -> Govee app name mapping from JSON
-    nicknames_json = os.path.join(os.path.dirname(__file__), "govee_devices.json")
-    with open(nicknames_json, "r") as f:
-        nicknames = json.load(f)  # e.g. {"glide_hexa_ultra": "Glide Hexa Ultra", ...}
-
-    # Fetch device list from Govee API
-    list_devices = get_govee_lights()  # Returns list of {d_name, d_sku, d_mac_addr}
-
-    # Build a quick lookup: Govee app name -> {sku, mac}
-    device_lookup = {device["d_name"]: {"sku": device["d_sku"], "mac": device["d_mac_addr"]} for device in list_devices}
-
-    # Match nicknames to live devices
-    device_map = {}
-    for nickname, device_name in nicknames.items():
-        if device_name in device_lookup:
-            device_map[nickname] = device_lookup[device_name]
-        else:
-            print(f"Warning: '{device_name}' not found in your Govee account. Check govee_devices.json.")
-
-    return device_map
-
 # Creates the govee device map at startup
 govee_device_map = build_govee_device_map()
 
@@ -91,7 +62,6 @@ def get_govee_device_info(nickname):
 
 #    Uses the govee_device_map built at startup from the live API.
 #    Example: get_govee_device_info("table_lamp") -> ("H6022", "AB:CD:...")
-
     if nickname not in govee_device_map:
         raise ValueError(f"'{nickname}' not found in govee-devices.json or your Govee account.")
 
@@ -105,12 +75,12 @@ def get_govee_device_info(nickname):
 # ---------------------------------------------------------------------------
 
 game_list_path    = os.path.join(os.path.dirname(__file__), "game_list.json")
-game_presets_path = os.path.join(os.path.dirname(__file__), "game_profiles.json")
+game_profiles_path = os.path.join(os.path.dirname(__file__), "game_profiles.json")
 
 with open(game_list_path, "r") as f:
     game_list = json.load(f)
 
-with open(game_presets_path, "r") as f:
+with open(game_profiles_path, "r") as f:
     game_presets = json.load(f)
 
 # ---------------------------------------------------------------------------
@@ -122,9 +92,6 @@ with open(game_presets_path, "r") as f:
 def apply_profile(game_name):
 
 #    Looks up game_name in game_presets.json and applies its full profile.
-#    If the game has no entry, a default profile is applied instead.
-#    Fall back to a "default" profile if this game isn't configured yet.
-
     if game_name not in game_presets:
         print(f"No profile found for '{game_name}'. Applying default.") # -------------------------------------- May need to change this if it starts applying profiles when other applications are launched
         game_name = "default"
@@ -146,28 +113,58 @@ def apply_profile(game_name):
         audio_output_change(profile["audio"])
 
     # --- Govee Lights ---
-    # profile["govee"] is a dict like:
-    #   { "table_lamp": {"power": "on", "brightness": 60, "scene": {...}}, ... }
     # Loop over each device and apply whatever settings are listed for it.
     if "govee" in profile:
-        for nickname, settings in profile["govee"].items():
-            try:
-                sku, mac = get_govee_device_info(nickname)
-            except ValueError as e:
-                print(f"Skipping '{nickname}': {e}")
-                continue
+        
+        dreamview = profile["govee"].get("dreamview", False)
 
-            if "power" in settings:
-                toggle_govee_device_power(sku, mac, settings["power"])
+        if dreamview:
+            print("Dreamview enabled, applying device states")
 
-            if "brightness" in settings:
-                change_govee_device_brightness(sku, mac, settings["brightness"])
+            dreamview_off = ("tv_backlight", "light_bar", "covered_led_strip", "table_lamp")
+            dreamview_on = ("sync_box", "glide_hexa_ultra", "glide_hexa")
 
-            # "scene" is optional — some devices in a profile might just be turned on/off
-            if "scene" in settings:
-                scene = settings["scene"]
-                change_govee_device_scene(sku, mac, scene["param_id"], scene["scene_id"])
-    
+            for nickname in dreamview_on:
+                try:
+                    sku, mac = get_govee_device_info(nickname)
+                    toggle_govee_device_power(sku, mac, "on")
+                    if nickname == "sync_box":
+                        toggle_govee_dreamview(sku, mac, "on")
+                except ValueError as e:
+                    print(f"Skipping '{nickname}': {e}")
+            
+            for nickname in dreamview_off:
+                try:
+                    sku, mac = get_govee_device_info(nickname)
+                    toggle_govee_device_power(sku, mac, "off")
+                except ValueError as e:
+                    print(f"Skipping '{nickname}': {e}")
+
+        else:
+            
+            for nickname, settings in profile["govee"].items():
+                try:
+                    sku, mac = get_govee_device_info(nickname)
+                except ValueError as e:
+                    print(f"Skipping '{nickname}': {e}")
+                    continue
+
+                if "power" in settings:
+                    toggle_govee_device_power(sku, mac, settings["power"])
+
+                if "brightness" in settings:
+                    change_govee_device_brightness(sku, mac, settings["brightness"])
+
+                if "scene" in settings:
+                    scene = settings["scene"]
+                    if "scene_id" in scene and "param_id" in scene:
+                        change_govee_device_scene(sku, mac, scene["scene_id"], scene["param_id"])
+                    elif "scene_id" in scene:
+                        change_govee_device_scene(sku, mac, scene["scene_id"])
+                    else:
+                        print(f"Invalid scene settings for '{nickname}', skipping scene change.")
+                        continue
+
 # ---------------------------------------------------------------------------
 # PROCESS WATCHER
 # Watches for new processes starting on Windows. When one matches a game

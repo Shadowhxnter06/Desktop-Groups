@@ -1,38 +1,32 @@
 {
   "ELDEN RING": {
     "wallpaper": "Elden Ring",
-    "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
+    "audio": "Speakers (Realtek USB2.0 Audio)",
     "apps": [],
     "websites": [],
     "govee": {
-      "glide_hexa_ultra": { "power": "on", "brightness": 100, "scene": { "param_id": 9678, "scene_id": 6975 } },
-      "glide_hexa":       { "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
-      "tv_backlight":     { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
-      "light_bar":        { "power": "on", "brightness": 40, "scene": { "param_id": 0, "scene_id": 0 } },
-      "covered_led_strip":{ "power": "on", "brightness": 40, "scene": { "param_id": 0, "scene_id": 0 } },
-      "sync_box":         { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "off" }
+      "dreamview": true
     }
   },
 
   "Subnautica": {
-    "wallpaper": "Subnautica Profile",
+    "wallpaper": "Subnautica",
     "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
     "apps": [],
     "websites": [],
     "govee": {
-      "glide_hexa_ultra": { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
-      "glide_hexa":       { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
-      "tv_backlight":     { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
-      "light_bar":        { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
-      "covered_led_strip":{ "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
-      "sync_box":         { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "off" }
+      "glide_hexa_ultra": { "power": "on", "brightness": 100, "scene": { "param_id": 9667, "scene_id": 6964 } },
+      "glide_hexa":       { "power": "on", "brightness": 70, "scene": { "param_id": 2360, "scene_id": 2252 } },
+      "tv_backlight":     { "power": "on", "brightness": 100, "scene": { "scene_id": 22591755 } },
+      "light_bar":        { "power": "on", "brightness": 100, "scene": { "param_id": 255, "scene_id": 256 } },
+      "covered_led_strip":{ "power": "on", "brightness": 100, "scene": { "param_id": 130, "scene_id": 148 } },
+      "sync_box":         { "power": "on", "brightness": 70, "scene": { "scene_id": 22591204 } },
+      "table_lamp":       { "power": "on", "brightness": 100, "scene": { "param_id": 18600, "scene_id": 11280 } }
     }
   },
 
   "ARK: Survival Evolved": {
-    "wallpaper": "ARK Profile",
+    "wallpaper": "ARK",
     "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
     "apps": [],
     "websites": [],
@@ -43,12 +37,13 @@
       "light_bar":        { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
       "covered_led_strip":{ "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
       "sync_box":         { "power": "on", "brightness": 90, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "off" }
+      "table_lamp":       { "power": "off" },
+      "dreamview":        false
     }
   },
 
   "Divinity: Original Sin 2": {
-    "wallpaper": "Divinity Profile",
+    "wallpaper": "Divinity",
     "audio": "Speakers (Realtek USB2.0 Audio)",
     "apps": [],
     "websites": [],
@@ -59,12 +54,13 @@
       "light_bar":        { "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
       "covered_led_strip":{ "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
       "sync_box":         { "power": "on", "brightness": 70, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "on", "brightness": 40 }
+      "table_lamp":       { "power": "on", "brightness": 40 },
+      "dreamview":        false
     }
   },
 
   "Schedule I": {
-    "wallpaper": "Schedule I Profile",
+    "wallpaper": "Schedule I",
     "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
     "apps": [],
     "websites": [],
@@ -75,12 +71,13 @@
       "light_bar":        { "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
       "covered_led_strip":{ "power": "on", "brightness": 60, "scene": { "param_id": 0, "scene_id": 0 } },
       "sync_box":         { "power": "on", "brightness": 80, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "off" }
+      "table_lamp":       { "power": "off" },
+      "dreamview":        false
     }
   },
 
   "Sons Of The Forest": {
-    "wallpaper": "Sons Of The Forest Profile",
+    "wallpaper": "Sons Of The Forest",
     "audio": "Headset Earphone (G535 Wireless Gaming Headset)",
     "apps": [],
     "websites": [],
@@ -91,12 +88,13 @@
       "light_bar":        { "power": "on", "brightness": 20, "scene": { "param_id": 0, "scene_id": 0 } },
       "covered_led_strip":{ "power": "on", "brightness": 20, "scene": { "param_id": 0, "scene_id": 0 } },
       "sync_box":         { "power": "on", "brightness": 50, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "off" }
+      "table_lamp":       { "power": "off" },
+      "dreamview":        false
     }
   },
 
   "Minecraft Launcher": {
-    "wallpaper": "Minecraft Profile",
+    "wallpaper": "Minecraft",
     "audio": "Speakers (Realtek USB2.0 Audio)",
     "apps": [],
     "websites": [],
@@ -107,12 +105,13 @@
       "light_bar":        { "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
       "covered_led_strip":{ "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
       "sync_box":         { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "on", "brightness": 80 }
+      "table_lamp":       { "power": "on", "brightness": 80 },
+      "dreamview":        false
     }
   },
 
   "Minecraft for Windows": {
-    "wallpaper": "Minecraft Profile",
+    "wallpaper": "Minecraft",
     "audio": "Speakers (Realtek USB2.0 Audio)",
     "apps": [],
     "websites": [],
@@ -123,7 +122,8 @@
       "light_bar":        { "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
       "covered_led_strip":{ "power": "on", "brightness": 90,  "scene": { "param_id": 0, "scene_id": 0 } },
       "sync_box":         { "power": "on", "brightness": 100, "scene": { "param_id": 0, "scene_id": 0 } },
-      "table_lamp":       { "power": "on", "brightness": 80 }
+      "table_lamp":       { "power": "on", "brightness": 80 },
+      "dreamview":        false
     }
   }
 }

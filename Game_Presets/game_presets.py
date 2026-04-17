@@ -52,7 +52,8 @@ def wallpaper_change(we_profile):
     if result.returncode != 0:
         print(f"Error: {result.stderr}")
     else:
-        print("Wallpaper changed successfully.")
+        #print("Wallpaper changed successfully.")
+        pass
 
 # Creates the govee device map at startup
 govee_device_map = build_govee_device_map()
@@ -75,12 +76,12 @@ def get_govee_device_info(nickname):
 # ---------------------------------------------------------------------------
 
 game_list_path    = os.path.join(os.path.dirname(__file__), "game_list.json")
-game_profiles_path = os.path.join(os.path.dirname(__file__), "game_profiles.json")
+profiles_path = os.path.join(os.path.dirname(__file__), "profiles.json")
 
 with open(game_list_path, "r") as f:
     game_list = json.load(f)
 
-with open(game_profiles_path, "r") as f:
+with open(profiles_path, "r") as f:
     game_presets = json.load(f)
 
 # ---------------------------------------------------------------------------
@@ -104,12 +105,12 @@ def apply_profile(game_name):
 
     # --- Wallpaper ---
     if "wallpaper" in profile:
-        print(f"Setting wallpaper profile: {profile['wallpaper']}")
+        #print(f"Setting wallpaper profile: {profile['wallpaper']}")
         wallpaper_change(profile["wallpaper"])
 
     # --- Audio Device ---
     if "audio" in profile:
-        print(f"Setting audio device: {profile['audio']}")
+        #print(f"Setting audio device: {profile['audio']}")
         audio_output_change(profile["audio"])
 
     # --- Govee Lights ---
@@ -119,7 +120,7 @@ def apply_profile(game_name):
         dreamview = profile["govee"].get("dreamview", False)
 
         if dreamview:
-            print("Dreamview enabled, applying device states")
+            #print("Dreamview enabled, applying device states")
 
             dreamview_off = ("tv_backlight", "light_bar", "covered_led_strip", "table_lamp")
             dreamview_on = ("sync_box", "glide_hexa_ultra", "glide_hexa")
@@ -190,5 +191,14 @@ while True:
 
     if exe_filename in game_list: # Checks if the executable is in the JSON file, if not it the loop goes back to "watcher()"
         game_name = game_list[exe_filename]["name"] # Grabs game name from dictionary
-        print(f"Detected: {game_name}")
+
+        #print(f"Detected: {game_name}")
         apply_profile(game_name)
+        process_id = event.ProcessId
+
+        # Creates a new watcher to check for the game closing and revert to previous configurations
+        c_watcher = c.Win32_Process.watch_for(
+            notification_type = "deletion",
+            delay_secs= 1,
+            ProcessId = process_id
+        )

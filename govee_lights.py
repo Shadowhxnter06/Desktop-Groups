@@ -142,7 +142,7 @@ def toggle_govee_device_power(d_sku, d_mac_addr, toggle):
     result = response.json()
     if result.get("code") != 200:
         raise Exception(f"Govee API error: {result.get('msg')}")
-    print(f"Power turned {toggle}")
+    #print(f"Power turned {toggle}")
 
 def change_govee_device_brightness(d_sku, d_mac_addr, value):
 
@@ -169,7 +169,7 @@ def change_govee_device_brightness(d_sku, d_mac_addr, value):
     result = response.json()
     if result.get("code") != 200:
         raise Exception(f"Govee API error: {result.get('msg')}")
-    print(f"Brightness set to {value}%")
+    #print(f"Brightness set to {value}%")
 
 def change_govee_device_scene(d_sku, d_mac_addr, scene_id, param_id=None):
 
@@ -212,7 +212,7 @@ def change_govee_device_scene(d_sku, d_mac_addr, scene_id, param_id=None):
     result = response.json()
     if result.get("code") != 200:
         raise Exception(f"Govee API error: {result.get('msg')}")
-    print(f"Scene applied")
+    #print(f"Scene applied")
 
 # Looks up a govee device's SKU and MAC address by its nickname.
 def get_govee_device_info(nickname):
@@ -253,4 +253,4 @@ def toggle_govee_dreamview(d_sku, d_mac_addr, toggle):
     result = response.json()
     if result.get("code") != 200:
         raise Exception(f"Govee API error: {result.get('msg')}")
-    print(f"DreamView Toggled {toggle}")
+    #print(f"DreamView Toggled {toggle}")

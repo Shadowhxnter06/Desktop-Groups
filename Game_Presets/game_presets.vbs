@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").Run "cmd /c ""C:\Users\Brayden\Documents\Github\Desktop-Groups\Game_Presets\game_presets.bat""", 0, False

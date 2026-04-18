@@ -67,11 +67,11 @@ def search_govee_scenes(device_name, scene_name):
         if scene["name"] == scene_name:
             if "paramId" in scene:
                 print(f"Scene ID: {scene['id']} Parameter ID: {scene['paramId']}")
-                return scene["id"], scene["paramId"]
+                return {"id": scene["id"], "paramId": scene["paramId"]}
             print(f"Scene ID: {scene['id']}")
-            return scene["id"]
+            return {"id": scene["id"]}
         
     print(f"Scene '{scene_name}' not found for device '{device_name}'")
     return None
 
-search_govee_scenes("Table Lamp", "Wave")
+#search_govee_scenes("Glide Hexa", "Aurora")

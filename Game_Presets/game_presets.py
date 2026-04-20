@@ -58,7 +58,7 @@ def wallpaper_change(we_profile):
 # Creates the govee device map at startup
 govee_device_map = build_govee_device_map()
 
-# Looks up a govee device's SKU and MAC address by its nickname.
+# Looks up a govee device's SKU and device ID by its nickname.
 def get_govee_device_info(nickname):
 
 #    Uses the govee_device_map built at startup from the live API.
@@ -67,7 +67,7 @@ def get_govee_device_info(nickname):
         raise ValueError(f"'{nickname}' not found in govee-devices.json or your Govee account.")
 
     device = govee_device_map[nickname]
-    return device["sku"], device["mac"]
+    return device["sku"], device["id"]
 
 # ---------------------------------------------------------------------------
 # LOAD CONFIG FILES
@@ -127,17 +127,17 @@ def apply_profile(game_name):
 
             for nickname in dreamview_on:
                 try:
-                    sku, mac = get_govee_device_info(nickname)
-                    toggle_govee_device_power(sku, mac, "on")
+                    sku, id = get_govee_device_info(nickname)
+                    toggle_govee_device_power(sku, id, "on")
                     if nickname == "sync_box":
-                        toggle_govee_dreamview(sku, mac, "on")
+                        toggle_govee_dreamview(sku, id, "on")
                 except ValueError as e:
                     print(f"Skipping '{nickname}': {e}")
             
             for nickname in dreamview_off:
                 try:
-                    sku, mac = get_govee_device_info(nickname)
-                    toggle_govee_device_power(sku, mac, "off")
+                    sku, id = get_govee_device_info(nickname)
+                    toggle_govee_device_power(sku, id, "off")
                 except ValueError as e:
                     print(f"Skipping '{nickname}': {e}")
 
@@ -145,23 +145,23 @@ def apply_profile(game_name):
             
             for nickname, settings in profile["govee"].items():
                 try:
-                    sku, mac = get_govee_device_info(nickname)
+                    sku, id = get_govee_device_info(nickname)
                 except ValueError as e:
                     print(f"Skipping '{nickname}': {e}")
                     continue
 
                 if "power" in settings:
-                    toggle_govee_device_power(sku, mac, settings["power"])
+                    toggle_govee_device_power(sku, id, settings["power"])
 
                 if "brightness" in settings:
-                    change_govee_device_brightness(sku, mac, settings["brightness"])
+                    change_govee_device_brightness(sku, id, settings["brightness"])
 
                 if "scene" in settings:
                     scene = settings["scene"]
                     if "scene_id" in scene and "param_id" in scene:
-                        change_govee_device_scene(sku, mac, scene["scene_id"], scene["param_id"])
+                        change_govee_device_scene(sku, id, scene["scene_id"], scene["param_id"])
                     elif "scene_id" in scene:
-                        change_govee_device_scene(sku, mac, scene["scene_id"])
+                        change_govee_device_scene(sku, id, scene["scene_id"])
                     else:
                         print(f"Invalid scene settings for '{nickname}', skipping scene change.")
                         continue
@@ -196,7 +196,7 @@ while True:
         apply_profile(game_name)
         process_id = event.ProcessId
 
-        # Creates a new watcher to check for the game closing and revert to previous configurations
+        # Creates a new watcher to check for the game closing and revert to previous configurations --------------------------------Continue
         c_watcher = c.Win32_Process.watch_for(
             notification_type = "deletion",
             delay_secs= 1,

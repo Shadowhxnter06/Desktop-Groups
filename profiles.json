@@ -2,15 +2,18 @@
   "Temp": {
     "wallpaper": "Dev",
     "audio": "Speakers (Realtek USB2.0 Audio)",
-    "apps": [],
+    "apps": [
+      "Chrome",
+      "Spotify"
+    ],
     "websites": [],
     "govee": {
       "glide_hexa_ultra": {
         "power": "on",
         "brightness": 100,
         "scene": {
-          "param_id": 0,
-          "scene_id": 0
+          "scene_id": 7259,
+          "param_id": 10531
         }
       },
       "glide_hexa": {
@@ -497,14 +500,14 @@
     "apps": [],
     "websites": [],
     "govee": {
-      "TV Backlight": {
+      "tv_backlight": {
         "power": "on",
         "brightness": 100,
         "scene": {
           "scene_id": 22510057
         }
       },
-      "Light bar": {
+      "light_bar": {
         "power": "on",
         "brightness": 100,
         "scene": {
@@ -512,14 +515,14 @@
           "param_id": 324
         }
       },
-      "Covered LED Strip": {
+      "covered_led_strip": {
         "power": "on",
         "brightness": 100,
         "scene": {
           "scene_id": 22510057
         }
       },
-      "AI Gaming Sync Box Kit": {
+      "sync_box": {
         "power": "on",
         "brightness": 80,
         "scene": {
@@ -527,14 +530,14 @@
           "param_id": 3212
         }
       },
-      "Table Lamp": {
+      "table_lamp": {
         "power": "on",
         "brightness": 100,
         "scene": {
           "scene_id": 22510050
         }
       },
-      "Glide Hexa Ultra": {
+      "glide_hexa_ultra": {
         "power": "on",
         "brightness": 100,
         "scene": {
@@ -542,7 +545,7 @@
           "param_id": 10531
         }
       },
-      "Glide Hexa": {
+      "glide_hexa": {
         "power": "on",
         "brightness": 70,
         "scene": {

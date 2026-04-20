@@ -22,7 +22,7 @@ HEADERS = {
 
 def get_govee_lights():
 
-#    Fetches all devices linked to your Govee account, along with their sku and mac address.
+#    Fetches all devices linked to your Govee account, along with their sku and device ID.
     
     endpoint = "/router/api/v1/user/devices"
 
@@ -36,7 +36,7 @@ def get_govee_lights():
         govee_lights.append({
             "d_name":     device["deviceName"],
             "d_sku":      device["sku"],
-            "d_mac_addr": device["device"]
+            "d__id": device["device"]
         })
 
     return govee_lights
@@ -46,8 +46,8 @@ def build_govee_device_map():
 # Calls the Govee API to get all current devices, then matches them against the nicknames in govee_devices.json.
 #    Returns a dict like:
 #    {
-#        "glide_hexa_ultra": {"sku": "H606A", "mac": "AB:CD:..."},
-#        "table_lamp":       {"sku": "H6022", "mac": "EF:GH:..."},
+#        "glide_hexa_ultra": {"sku": "H606A", "id": "AB:CD:..."},
+#        "table_lamp":       {"sku": "H6022", "id": "EF:GH:..."},
 #        ...
 #    }
     
@@ -57,10 +57,10 @@ def build_govee_device_map():
         nicknames = json.load(f)  # e.g. {"glide_hexa_ultra": "Glide Hexa Ultra", ...}
 
     # Fetch device list from Govee API
-    list_devices = get_govee_lights()  # Returns list of {d_name, d_sku, d_mac_addr}
+    list_devices = get_govee_lights()  # Returns list of {d_name, d_sku, d_id}
 
-    # Build a quick lookup: Govee app name -> {sku, mac}
-    device_lookup = {device["d_name"]: {"sku": device["d_sku"], "mac": device["d_mac_addr"]} for device in list_devices}
+    # Build a quick lookup: Govee app name -> {sku, id}
+    device_lookup = {device["d_name"]: {"sku": device["d_sku"], "id": device["d_id"]} for device in list_devices}
 
     # Match nicknames to live devices
     device_map = {}
@@ -72,13 +72,11 @@ def build_govee_device_map():
 
     return device_map
 
-
-
 # ---------------------------------------------------------------------------
-# SCENE DISCOVERY
+# SCENES
 # ---------------------------------------------------------------------------
 
-def get_govee_device_scenes(d_sku, d_mac_addr):
+def get_govee_device_scenes(d_sku, d_id):
 
 #    Returns all built-in scenes available for a device.
 
@@ -87,14 +85,14 @@ def get_govee_device_scenes(d_sku, d_mac_addr):
         "requestId": str(uuid.uuid4()), 
         "payload": {
             "sku": d_sku,
-            "device": d_mac_addr
+            "device": d_id
         }
     }
     response = requests.post(url=DOMAIN + endpoint, headers=HEADERS, json=data)
     response.raise_for_status()
     return response.json()
 
-def get_govee_device_diy_scenes(d_sku, d_mac_addr):
+def get_govee_device_diy_scenes(d_sku, d_id):
   
 #   Returns all DIY scenes you've created for a device (the "DIY" tab in the app).
 
@@ -103,18 +101,97 @@ def get_govee_device_diy_scenes(d_sku, d_mac_addr):
         "requestId": str(uuid.uuid4()),
         "payload": {
             "sku": d_sku,
-            "device": d_mac_addr
+            "device": d_id
         }
     }
     response = requests.post(url=DOMAIN + endpoint, headers=HEADERS, json=data)
     response.raise_for_status()
     return response.json()
 
+def get_govee_scenes():
+    
+    # Fetches all devices and their scenes, then saves to govee_scenes.json.
+    # This is a helper script to populate govee_scenes.json, which is used by game_profiles.json.
+    devices = get_govee_lights()
+    all_scenes = {}
+
+    nicknames_json = os.path.join(os.path.dirname(__file__), "govee_devices.json")
+    with open(nicknames_json, "r") as f:
+        nicknames = json.load(f)
+    display_to_nickname = {v.strip(): k for k, v in nicknames.items()}
+
+    for device in devices:
+        display_name = device["d_name"]
+        if display_name in display_to_nickname:
+            name = display_to_nickname[display_name]
+        else:
+            name = display_name.lower().replace(" ", "_").replace("(", "").replace(")", "").replace("__", "_")
+        print(f"Fetching scenes for {display_name} (key: {name})...")
+
+        response = get_govee_device_scenes(device["d_sku"], device["d_id"])
+        diy_response = get_govee_device_diy_scenes(device["d_sku"], device["d_id"])
+        capabilities = response.get("payload", {}).get("capabilities", [])
+        diy_capabilities = diy_response.get("payload", {}).get("capabilities", [])
+
+        scenes = []
+        for cap in capabilities:
+            options = cap.get("parameters", {}).get("options", [])
+            for option in options:
+                scenes.append({
+                    "name": option["name"],
+                    "id": option["value"]["id"],
+                    "paramId": option["value"]["paramId"]
+                })
+        for cap in diy_capabilities:
+            options = cap.get("parameters", {}).get("options", [])
+            for option in options:
+                scenes.append({
+                    "name": option["name"],
+                    "id": option["value"]
+                })
+
+        all_scenes[name] = {
+            "sku": device["d_sku"],
+            "id": device["d_id"],
+            "scenes": scenes
+        }
+
+    with open("govee_scenes.json", "w") as f:
+        json.dump(all_scenes, f, indent=2)
+
+    print(f"Done")
+
+def search_govee_scenes(device_name, scene_name):
+    
+    # Function to return the scene/param ID for each scene based on the name
+    # May need to set this up to load new scenes each run----------------------------------------------------------------------------------------
+
+    print(f"Fetching {device_name} scenes...")
+    with open("govee_scenes.json", "r") as f:
+        device_scenes = json.load(f)
+    
+    s = device_scenes[device_name]
+    if s is None:
+            print(f"Device '{device_name}' not found in govee_scenes.json")
+            return None
+    
+    for scene in s["scenes"]:
+        
+        if scene["name"] == scene_name:
+            if "paramId" in scene:
+                print(f"Scene ID: {scene['id']} Parameter ID: {scene['paramId']}")
+                return {"id": scene["id"], "paramId": scene["paramId"]}
+            print(f"Scene ID: {scene['id']}")
+            return {"id": scene["id"]}
+        
+    print(f"Scene '{scene_name}' not found for device '{device_name}'")
+    return None
+
 # ---------------------------------------------------------------------------
 # DEVICE CONTROL
 # ---------------------------------------------------------------------------
 
-def toggle_govee_device_power(d_sku, d_mac_addr, toggle):
+def toggle_govee_device_power(d_sku, d_id, toggle):
     
 #   Turns a device on or off.
 
@@ -130,7 +207,7 @@ def toggle_govee_device_power(d_sku, d_mac_addr, toggle):
         "requestId": str(uuid.uuid4()),
         "payload": {
             "sku": d_sku,
-            "device": d_mac_addr,
+            "device": d_id,
             "capability": {
                 "type": "devices.capabilities.on_off",
                 "instance": "powerSwitch",
@@ -144,7 +221,7 @@ def toggle_govee_device_power(d_sku, d_mac_addr, toggle):
         raise Exception(f"Govee API error: {result.get('msg')}")
     #print(f"Power turned {toggle}")
 
-def change_govee_device_brightness(d_sku, d_mac_addr, value):
+def change_govee_device_brightness(d_sku, d_id, value):
 
 #   Sets brightness for a device.
 #   value: integer between 1 and 100 (percent)
@@ -157,7 +234,7 @@ def change_govee_device_brightness(d_sku, d_mac_addr, value):
         "requestId": str(uuid.uuid4()),
         "payload": {
             "sku": d_sku,
-            "device": d_mac_addr,
+            "device": d_id,
             "capability": {
                 "type": "devices.capabilities.range",
                 "instance": "brightness",
@@ -171,7 +248,7 @@ def change_govee_device_brightness(d_sku, d_mac_addr, value):
         raise Exception(f"Govee API error: {result.get('msg')}")
     #print(f"Brightness set to {value}%")
 
-def change_govee_device_scene(d_sku, d_mac_addr, scene_id, param_id=None):
+def change_govee_device_scene(d_sku, d_id, scene_id, param_id=None):
 
 #   Activates a scene on a device.
 #   param_id and scene_id come from get_govee_device_scenes() or get_govee_device_diy_scenes().
@@ -184,7 +261,7 @@ def change_govee_device_scene(d_sku, d_mac_addr, scene_id, param_id=None):
             "requestId": str(uuid.uuid4()),
             "payload": {
                 "sku": d_sku,
-                "device": d_mac_addr,
+                "device": d_id,
                 "capability": {
                     "type": "devices.capabilities.diy_color_setting",
                     "instance": "diyScene",
@@ -197,7 +274,7 @@ def change_govee_device_scene(d_sku, d_mac_addr, scene_id, param_id=None):
             "requestId": str(uuid.uuid4()),
             "payload": {
                 "sku": d_sku,
-                "device": d_mac_addr,
+                "device": d_id,
                 "capability": {
                     "type": "devices.capabilities.dynamic_scene",
                     "instance": "lightScene",
@@ -214,8 +291,9 @@ def change_govee_device_scene(d_sku, d_mac_addr, scene_id, param_id=None):
         raise Exception(f"Govee API error: {result.get('msg')}")
     #print(f"Scene applied")
 
-# Looks up a govee device's SKU and MAC address by its nickname.
 def get_govee_device_info(nickname):
+
+    # Looks up a govee device's SKU and device ID by its nickname.
 
     govee_device_map = build_govee_device_map()
 
@@ -225,9 +303,9 @@ def get_govee_device_info(nickname):
         raise ValueError(f"'{nickname}' not found in govee-devices.json or your Govee account.")
 
     device = govee_device_map[nickname]
-    return device["sku"], device["mac"]
+    return device["sku"], device["id"]
 
-def toggle_govee_dreamview(d_sku, d_mac_addr, toggle):
+def toggle_govee_dreamview(d_sku, d_id, toggle):
     
     if toggle == "off":
         toggle_value = 0
@@ -241,7 +319,7 @@ def toggle_govee_dreamview(d_sku, d_mac_addr, toggle):
         "requestId": str(uuid.uuid4()),
         "payload": {
             "sku": d_sku,
-            "device": d_mac_addr,
+            "device": d_id,
             "capability": {
                 "type": "devices.capabilities.toggle",
                 "instance": "dreamViewToggle",
@@ -254,3 +332,4 @@ def toggle_govee_dreamview(d_sku, d_mac_addr, toggle):
     if result.get("code") != 200:
         raise Exception(f"Govee API error: {result.get('msg')}")
     #print(f"DreamView Toggled {toggle}")
+

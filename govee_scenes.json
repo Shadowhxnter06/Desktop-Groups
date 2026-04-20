@@ -1,5 +1,5 @@
 {
-  "Floor Lamp Basic": {
+  "floor_lamp_basic": {
     "sku": "H6076",
     "mac": "08:6E:D2:30:39:39:22:1E",
     "scenes": [
@@ -655,7 +655,7 @@
       }
     ]
   },
-  "Light bar": {
+  "light_bar": {
     "sku": "H6062",
     "mac": "E1:94:D1:31:30:30:22:5D",
     "scenes": [
@@ -1135,7 +1135,7 @@
       }
     ]
   },
-  "LED panels": {
+  "led_panels": {
     "sku": "H6067",
     "mac": "35:C2:D3:32:39:36:18:5A",
     "scenes": [
@@ -1418,7 +1418,7 @@
       }
     ]
   },
-  "AI Gaming Sync Box Kit": {
+  "sync_box": {
     "sku": "H6601",
     "mac": "16:DA:C8:FB:F4:AE:D4:FF",
     "scenes": [
@@ -1694,7 +1694,7 @@
       }
     ]
   },
-  "TV Backlight": {
+  "tv_backlight": {
     "sku": "H6099",
     "mac": "B7:7E:D2:39:32:35:28:5A",
     "scenes": [
@@ -1820,7 +1820,7 @@
       }
     ]
   },
-  "Glide Hexa Ultra": {
+  "glide_hexa_ultra": {
     "sku": "H606A",
     "mac": "1B:EE:C4:CB:CA:15:E8:9E",
     "scenes": [
@@ -2245,7 +2245,7 @@
       }
     ]
   },
-  "Box (Basement)": {
+  "box_basement": {
     "sku": "H6602",
     "mac": "15:C7:D1:07:FD:3D:A9:0F",
     "scenes": [
@@ -3101,7 +3101,7 @@
       }
     ]
   },
-  "Rope lights": {
+  "rope_lights": {
     "sku": "H61A1",
     "mac": "9A:F5:D4:AD:FC:3E:E0:41",
     "scenes": [
@@ -4157,7 +4157,7 @@
       }
     ]
   },
-  "Table Lamp": {
+  "table_lamp": {
     "sku": "H6022",
     "mac": "0E:88:CD:2A:03:86:42:0F",
     "scenes": [
@@ -4684,7 +4684,7 @@
       }
     ]
   },
-  "Covered LED Strip": {
+  "covered_led_strip": {
     "sku": "H61B5",
     "mac": "29:D1:D6:50:84:C6:25:33",
     "scenes": [
@@ -5120,7 +5120,7 @@
       }
     ]
   },
-  "Glide Hexa": {
+  "glide_hexa": {
     "sku": "H6061",
     "mac": "A2:C2:D2:2E:81:C6:66:18",
     "scenes": [

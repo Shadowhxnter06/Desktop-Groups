@@ -1,7 +1,9 @@
 import json
 import os, sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from govee_lights import search_govee_scenes
+from resources.govee_lights import search_govee_scenes
+
+PROFILES_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "configs", "profiles.json")
 
 def create_profile():
     # This function is meant to be called from the command line to create a new profile.
@@ -17,10 +19,10 @@ def create_profile():
     else:
         print("Invalid audio device, defaulting to headset")
         audio = "Headset Earphone (G535 Wireless Gaming Headset)"
-    govee_dreamview = input("Enable Dreamview for Govee devices? (y/n): ").lower()
+    #govee_dreamview = input("Enable Dreamview for Govee devices? (y/n): ").lower()
     govee_settings = {}
     device_options = ["tv_backlight", "light_bar", "covered_led_strip", "table_lamp", "sync_box", "glide_hexa_ultra", "glide_hexa"]
-    while govee_dreamview != "y":
+    while True: #govee_dreamview != "y":
         
         device_name = input(f"Enter a Govee device name to configure, valid options:\n {', '.join(device_options)}\n'done' to finish, 'skip' to skip: ")
         if device_name.lower() == "done":
@@ -68,10 +70,10 @@ def create_profile():
             print("All devices configured.")
             break
     
-    if govee_dreamview == "y":
+    """if govee_dreamview == "y":
         govee_block = {"dreamview": True}
     else:
-        govee_block = govee_settings
+        govee_block = govee_settings"""
 
     profile = {
         profile_name: {
@@ -79,7 +81,7 @@ def create_profile():
             "audio": audio,
             "apps": [],
             "websites": [],
-            "govee": govee_block
+            "govee": govee_settings
         }
     }
     confirmation = input(f"Profile configuration:\n{json.dumps(profile, indent=2)}\nDoes this look correct? ('y/n')")
@@ -87,7 +89,7 @@ def create_profile():
         print("Profile creation cancelled.")
         return
     else:
-        with open("profiles.json", "r") as f:
+        with open(PROFILES_PATH, "r") as f:
             existing_profiles = json.load(f)
         if profile_name in existing_profiles:
             overwrite = input(f"A profile named '{profile_name}' already exists. Do you want to overwrite it? ('y/n'): ")
@@ -99,14 +101,14 @@ def create_profile():
 
         existing_profiles.update(profile)
         
-        with open("profiles.json", "w") as f:
+        with open(PROFILES_PATH, "w") as f:
             json.dump(existing_profiles, f, indent=2)
             print(f"Profile '{profile_name}' added to 'profiles.json'")
 
 def edit_profile(name):
 
     # Function to edit aspects of a specific profile from its name (case-sensitive)
-    with open("profiles.json", "r") as f:
+    with open(PROFILES_PATH, "r") as f:
             existing_profiles = json.load(f)
     
     if name not in existing_profiles:
@@ -126,7 +128,7 @@ def edit_profile(name):
         match selected_option.lower():
             case "wallpaper":
                 w_change = input(f"Enter name of new wallpaper profile: ")
-                with open("profiles.json", "w") as f:
+                with open(PROFILES_PATH, "w") as f:
                     selected_profile["wallpaper"] = w_change
                     json.dump(existing_profiles, f, indent=2)
                     print(f"Wallpaper updated for profile '{name}'")
@@ -139,21 +141,21 @@ def edit_profile(name):
                 else:
                     print("Invalid audio device, defaulting to headset")
                     a_change = "Headset Earphone (G535 Wireless Gaming Headset)"
-                with open("profiles.json", "w") as f:
+                with open(PROFILES_PATH, "w") as f:
                     selected_profile["audio"] = a_change
                     json.dump(existing_profiles, f, indent=2)
                     print(f"Audio output updated for profile '{name}'")
             case "apps":
                 app_change = input(f"Enter new list of apps to launch (comma-separated, no spaces): ")
                 app_list = app_change.split(",")
-                with open("profiles.json", "w") as f:
+                with open(PROFILES_PATH, "w") as f:
                     selected_profile["apps"] = app_list
                     json.dump(existing_profiles, f, indent=2)
                     print(f"Apps updated for profile '{name}'")
             case "websites":
                 web_change = input(f"Enter new list of websites to open (comma-separated, no spaces): ")
                 web_list = web_change.split(",")
-                with open("profiles.json", "w") as f:
+                with open(PROFILES_PATH, "w") as f:
                     selected_profile["websites"] = web_list
                     json.dump(existing_profiles, f, indent=2)
                     print(f"Websites updated for profile '{name}'")
@@ -192,7 +194,7 @@ def edit_profile(name):
                         else:
                             print(f"Scene '{new_scene_name}' not found for device '{govee_device}', skipping scene update.")
                             continue
-                with open("profiles.json", "w") as f:
+                with open(PROFILES_PATH, "w") as f:
                     json.dump(existing_profiles, f, indent=2)
                     print(f"Govee settings updated for profile '{name}'")
             case _:
@@ -200,4 +202,11 @@ def edit_profile(name):
                 continue
             # Eventually need to add other options such as Divoom, overheads, other wallpaper configs etc
 
-edit_profile("Temp")
+"""input = input("Would you like to 'edit' or 'create' a profile?: ")
+if input == "create":
+    create_profile()
+elif input == "edit":
+    name = input("Please enter profile name: ")
+    edit_profile(name)
+else:
+    print("Invalid option. Please select 'create' or 'edit'")""" # -----------------------------------Debug

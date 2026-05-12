@@ -36,7 +36,7 @@ def get_govee_lights():
         govee_lights.append({
             "d_name":     device["deviceName"],
             "d_sku":      device["sku"],
-            "d__id": device["device"]
+            "d_id": device["device"]
         })
 
     return govee_lights
@@ -52,7 +52,7 @@ def build_govee_device_map():
 #    }
     
     # Load nickname -> Govee app name mapping from JSON
-    nicknames_json = os.path.join(os.path.dirname(__file__), "govee_devices.json")
+    nicknames_json = os.path.join(os.path.dirname(__file__), "..", "..", "configs", "govee_devices.json")
     with open(nicknames_json, "r") as f:
         nicknames = json.load(f)  # e.g. {"glide_hexa_ultra": "Glide Hexa Ultra", ...}
 
@@ -115,7 +115,7 @@ def get_govee_scenes():
     devices = get_govee_lights()
     all_scenes = {}
 
-    nicknames_json = os.path.join(os.path.dirname(__file__), "govee_devices.json")
+    nicknames_json = os.path.join(os.path.dirname(__file__), "..", "..", "configs", "govee_devices.json")
     with open(nicknames_json, "r") as f:
         nicknames = json.load(f)
     display_to_nickname = {v.strip(): k for k, v in nicknames.items()}
@@ -156,7 +156,8 @@ def get_govee_scenes():
             "scenes": scenes
         }
 
-    with open("govee_scenes.json", "w") as f:
+    govee_scenes_path = os.path.join(os.path.dirname(__file__), "..", "..", "configs", "govee_scenes.json")
+    with open(govee_scenes_path, "w") as f:
         json.dump(all_scenes, f, indent=2)
 
     print(f"Done")
@@ -167,7 +168,7 @@ def search_govee_scenes(device_name, scene_name):
     # May need to set this up to load new scenes each run----------------------------------------------------------------------------------------
 
     print(f"Fetching {device_name} scenes...")
-    with open("govee_scenes.json", "r") as f:
+    with open(os.path.join(os.path.dirname(__file__), "..", "..", "configs", "govee_scenes.json"), "r") as f:
         device_scenes = json.load(f)
     
     s = device_scenes[device_name]

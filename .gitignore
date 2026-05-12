@@ -213,3 +213,7 @@ Archive/
 *test*
 *testing*
 .claude/
+Latest Findings
+# Need to change these to an example folder
+configs/
+/src/game_presets/game_presets.vbs

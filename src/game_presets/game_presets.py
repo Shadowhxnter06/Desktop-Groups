@@ -6,8 +6,9 @@ from pycaw.pycaw import AudioUtilities
 from pycaw.constants import EDataFlow
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Add parent directory to path for imports
-from govee_lights import (
+from resources.govee_lights import (
     toggle_govee_device_power,
     change_govee_device_brightness,
     change_govee_device_scene,
@@ -75,8 +76,8 @@ def get_govee_device_info(nickname):
 # so the JSON paths work no matter where you run the script from.
 # ---------------------------------------------------------------------------
 
-game_list_path    = os.path.join(os.path.dirname(__file__), "game_list.json")
-profiles_path = os.path.join(os.path.dirname(__file__), "profiles.json")
+game_list_path    = os.path.join(os.path.dirname(__file__), "..", "..", "configs", "game_list.json")
+profiles_path = os.path.join(os.path.dirname(__file__), "..", "..", "configs", "profiles.json")
 
 with open(game_list_path, "r") as f:
     game_list = json.load(f)
@@ -117,7 +118,7 @@ def apply_profile(game_name):
     # Loop over each device and apply whatever settings are listed for it.
     if "govee" in profile:
         
-        dreamview = profile["govee"].get("dreamview", False)
+        """dreamview = profile["govee"].get("dreamview", False)
 
         if dreamview:
             #print("Dreamview enabled, applying device states")
@@ -139,32 +140,38 @@ def apply_profile(game_name):
                     sku, id = get_govee_device_info(nickname)
                     toggle_govee_device_power(sku, id, "off")
                 except ValueError as e:
-                    print(f"Skipping '{nickname}': {e}")
+                    print(f"Skipping '{nickname}': {e}")"""
 
-        else:
-            
+        #else:
+
+        # Applies all settings for a single device — called once per thread
+        def govee_single_device_config(nickname, settings):
+            try:
+                sku, id = get_govee_device_info(nickname)
+            except ValueError as e:
+                print(f"Skipping '{nickname}': {e}")
+                return
+
+            if "power" in settings:
+                toggle_govee_device_power(sku, id, settings["power"])
+
+            if "brightness" in settings:
+                change_govee_device_brightness(sku, id, settings["brightness"])
+
+            if "scene" in settings:
+                scene = settings["scene"]
+                if "scene_id" in scene and "param_id" in scene:
+                    change_govee_device_scene(sku, id, scene["scene_id"], scene["param_id"])
+                elif "scene_id" in scene:
+                    change_govee_device_scene(sku, id, scene["scene_id"])
+                else:
+                    print(f"Invalid scene settings for '{nickname}', skipping scene change.")
+
+        # Submit one thread per device — all devices are configured simultaneously
+        with ThreadPoolExecutor() as executor:
             for nickname, settings in profile["govee"].items():
-                try:
-                    sku, id = get_govee_device_info(nickname)
-                except ValueError as e:
-                    print(f"Skipping '{nickname}': {e}")
-                    continue
-
-                if "power" in settings:
-                    toggle_govee_device_power(sku, id, settings["power"])
-
-                if "brightness" in settings:
-                    change_govee_device_brightness(sku, id, settings["brightness"])
-
-                if "scene" in settings:
-                    scene = settings["scene"]
-                    if "scene_id" in scene and "param_id" in scene:
-                        change_govee_device_scene(sku, id, scene["scene_id"], scene["param_id"])
-                    elif "scene_id" in scene:
-                        change_govee_device_scene(sku, id, scene["scene_id"])
-                    else:
-                        print(f"Invalid scene settings for '{nickname}', skipping scene change.")
-                        continue
+                executor.submit(govee_single_device_config, nickname, settings)
+        # Exits the 'with' block only after every thread has finished
 
 # ---------------------------------------------------------------------------
 # PROCESS WATCHER
@@ -192,7 +199,7 @@ while True:
     if exe_filename in game_list: # Checks if the executable is in the JSON file, if not it the loop goes back to "watcher()"
         game_name = game_list[exe_filename]["name"] # Grabs game name from dictionary
 
-        #print(f"Detected: {game_name}")
+        print(f"Detected: {game_name}")
         apply_profile(game_name)
         process_id = event.ProcessId
 
@@ -202,3 +209,9 @@ while True:
             delay_secs= 1,
             ProcessId = process_id
         )
+
+        print(f"Waiting for {game_name} to close...")
+        c_event = c_watcher()
+        print(f"{game_name} closed, applying default profile")
+        apply_profile("default") #------------------------ Need to setup snapshots for profiles to return to what it was before the game profile application
+        print("Waiting for games to launch...")
